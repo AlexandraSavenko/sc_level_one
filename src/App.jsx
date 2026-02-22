@@ -1,6 +1,5 @@
 import { Link, Route, Routes } from 'react-router-dom'
 import './App.css'
-import Story from './components/story/Story'
 import Story1 from './stories/story1/Story1'
 import Story2 from './stories/story2/Story2'
 

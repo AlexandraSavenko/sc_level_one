@@ -1,6 +1,8 @@
 import React from 'react'
 import { story1 } from './data'
 import StoryPage from '../../components/storyPage/StoryPage'
+import Vocabulary from './Vocabulary'
+import ReadingTasks from './ReadingTasks'
 
 const Story1 = () => {
   return (
@@ -11,6 +13,8 @@ const Story1 = () => {
         story1.pages.map(el => <li key={el.id}><StoryPage storyPage={el}/></li> )
       }
     </ul>
+    {<Vocabulary voc={story1.vocabulary} />}
+    {<ReadingTasks items={story1.tasks} />}
     </div>
   )
 }
