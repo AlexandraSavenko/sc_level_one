@@ -42,7 +42,60 @@ export const story2 = {
       id: 8,
       imageURL: "/story_images/second_story/second_story_8.png",
       altText: "beaver abd baby beaver",
-      text: "The river is quiet again. The birds are happy. The ducks are happy. The otters are happy.I look at the strong dam and smile. The river is his home and it is a home for many animals.",
+      text: "The river is quiet again. The birds are happy. The ducks are happy. The otters are happy. I look at the strong dam and smile. The river is his home and it is a home for many animals.",
     },
   ],
+  vocabulary: {
+    nouns:
+      "morning, tree, friend, duck, feather, beak, rock, otter, fox, home, bird, duck",
+    verbs:
+      "wake up, sing, check, keep, catch, say, walk, cross, want, feel, help, swim, look, smile",
+    adjectives:
+      "thick, wide, flat, long, calm, quiet, wooden, deep, safe, back, angry",
+    adverbs: "every, early, safely, all, around",
+    prepositions: "in",
+  },
+  tasks: {
+    task1: {
+      name: "Who can say this",
+      list: [
+        "“I like the dam.” ",
+        "“The dam keeps the river deep, thank you.”",
+        "“I can’t cross the river here.”",
+        "“This is our home. It keeps us safe.”",
+      ],
+    },
+    task2: {
+      name: "Say who can:",
+      list: [
+        "Who can catch small fish?",
+        "Who can swim fast?",
+        "Who cannot swim?",
+        "Who builds the dam?",
+        "Who checks the dam every morning?",
+      ],
+    },
+    task3: {
+      name: "Repeat if true (clap if true)",
+      list: [
+        "Ben has thin grey fur.",
+        "Ben lives near a river.",
+        "Ben’s father is building a dam.",
+        "Molly has brown feathers.",
+        "Oliver can swim.",
+        "The fox is happy about the dam.",
+        "The dam keeps the water deep.",
+        "All animals are Ben’s friends.",
+      ],
+    },
+    task4: {
+      name: "Say who has:",
+      list: [
+        "white feathers and yellow beak",
+        "long red tail and green eyes",
+        "thick brown fur and flat tail",
+        "long thick tail",
+      ],
+    },
+  },
 };
