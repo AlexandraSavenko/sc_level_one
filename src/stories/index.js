@@ -1,5 +1,8 @@
 import { story1 } from "./story1/data";
 import { story2 } from "./story2/data";
 import { story3 } from "./story3/data";
+import { story4 } from "./story4/data";
+import { story5 } from "./story5/data";
+import { story8 } from "./story8/data";
 
-export const stories = [story1, story2, story3];
+export const stories = [story1, story2, story3, story4, story5, story8];

@@ -142,4 +142,24 @@ export const story2 = {
       ],
     },
   },
+  speaking: [
+    {
+      id: "fox-has-long-tail",
+      type: "sentence",
+      dialogue: [
+        {speaker: "A", line: "Beaver has big"},
+        {speaker: "B", line: "teeth"}
+
+      ],
+      table: {
+        column1: ["beaver, fox, otter"],
+        column2: "has",
+        column3: ["big", "small", "sharp", "wide", "flat", "long"],
+        column4: ["teeth", "eyes", "nose", "ears", "tail"]
+      }
+    },
+    {
+      id: ""
+    }
+  ]
 };

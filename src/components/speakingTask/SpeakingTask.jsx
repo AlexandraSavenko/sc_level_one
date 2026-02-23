@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { stories } from "../../stories";
 import SpeakButton from "../speakButton/SpeakButton";
+import css from "./SpeakingTask.module.css"
 
 
 const SpeakingTask = () => {
@@ -20,9 +21,9 @@ const SpeakingTask = () => {
         </div>
         
       ))}
-<div className="table">
+<div className={css.table}>
   {Object.entries(task.table).map((el, index) => (
-    <div key={index}>
+    <div key={index} className={css.column}>
       {Array.isArray(el[1])
         ? el[1].map((word, i) => <p key={i}>{word}</p>)
         : <p>{el[1]}</p>

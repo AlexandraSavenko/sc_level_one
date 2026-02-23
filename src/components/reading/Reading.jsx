@@ -17,7 +17,7 @@ const Reading = () => {
           {/* Image */}
           {page.altText && (
             <img
-              src={`/story_images/${story.id}/first_story_${page.id}.png`}
+              src={`/story_images/${story.id}/text_${page.id}.png`}
               alt={page.altText}
               style={{ maxWidth: "100%" }}
             />

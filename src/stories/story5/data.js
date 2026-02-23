@@ -1,0 +1,182 @@
+export const story5 = {
+  id: "story5",
+  title: "Maggie the magpie builds a nest",
+  pages: [
+    {
+      id: 1,
+      altText: "magpie",
+      text: "Hello, I’m Maggie the magpie. Look at me! I am so beautiful. My feathers are black, white and blue. My head is black and round. My tummy is white and soft. My legs are thin and strong. My tail is blue and shiny. I like beautiful things.",
+    },
+    {
+      id: 2,
+      altText: "buds on branches",
+      text: "It is spring. The forest wakes up. The grass is green. There are buds on the trees and bushes. I fly to a farm. I look at a big tree. I want a home in that tree.",
+    },
+    {
+      id: 3,
+      altText: "magpie building nest base",
+      text: "Monday is my day. The sun is shining. The wind is soft.  I want to start building. I fly around and I look down. A boy is walking and smiling. I can see a puppy. His mouth is open. An old crow looks into his mouth. He has one tooth in his mouth. I keep flying. Then I find strong sticks and twigs.  I carry them in my beak. I put them on a thick branch. I make a small round base in a tall tree.",
+    },
+    {
+      id: 4,
+      altText: "magpie carring a stick",
+      text: "Tuesday is to you. The wind is strong.  Some sticks and twigs fall down. They are on the grass. “Oh no!” I say. I fly down and pick one stick with my beak. I see a puppy. It looks at me but it doesn’t bite me. I fly up. I work again and make the base good and strong. But it is hard.",
+    },
+    {
+      id: 5,
+      altText: "magpie with grass",
+      text: "Wednesday is when day. When will the sun shining again? The sky is grey. I can see no sun. But I keep working. I fly to the forest. I can see a beaver. He is building a dam. Small beavers help him. I keep flying.  I find soft grass and thin roots. I carry them in my beak. I put them inside the nest. Now it looks soft and nice. ",
+    },
+    {
+      id: 6,
+      altText: "magpie and rain",
+      text: "Thursday is “so sad” day. There is no sun. The sky is grey and sad. Rain falls all day. I sit under a branch. I look down and I see a wolf. He walks in the rain. The wolf is wet. When the rain stops, I check my nest. I can see it. It is still strong. I feel happy.",
+    },
+    {
+      id: 7,
+      altText: "wolf sleeping",
+      text: "Friday is “fly” day. I fly and fly. I fly to the forest. I see a squirrel. It carries a mushroom. I fly and fly. I see a wolf. It sleeps under a bush.",
+    },
+    {
+      id: 8,
+      altText: "pig in mud",
+      text: "I fly back to the farm. I see a cow. The cow is eating grass. I see a pig. The pig is sitting in mud.",
+    },
+    {
+      id: 9,
+      altText: "magpie and a coin",
+      text: "I see a shiny thing. It is small and yellow. What is it? “It is shiny!” I say happily. I carry the it to my nest. Now my home looks special.",
+    },
+    {
+      id: 10,
+      altText: "pig and magpie",
+      text: "Saturday is “Say true” day. I wake up and look at the sky. The sky is grey, but the rain doesn’t start. I fly to the forest. There is a hazelnut bush. But there are no hazelnuts on it. There is walnut tree but there are no walnuts on it. I fly to the farm. I can see a pig. It is eating porridge. “Hello, can you give me some porridge for breakfast?” “Yes” says the pig. We eat porridge.",
+    },
+    {
+      id: 11,
+      altText: "magpie and crow",
+      text: "After breakfast I fly back to my nest. A crow comes to my nest. “It is beautiful,” says the crow.I add soft feathers inside. The nest is warm and safe.",
+    },
+    {
+      id: 12,
+      altText: "eggs in a nest",
+      text: "Sunday is a sunny day. I wake up and look out of the nest. The sun shines brightly. The sky is blue. I am sitting inside my nest. I don’t fly outside. I can’t. Why? Look inside. Can you see my eggs? There are seven little eggs. What color are they? My next is strong. It is warm. It is a good home for my eggs. I will sit on my eggs all week long. I will stay in the nest next Monday, next Tuesday, next Wednesday, next Thursday, next Friday, next Saturday and next Sunday, I will warm them up.",
+    },
+  ],
+  vocabulary: {
+  nouns: [
+    { word: "magpie", meaning: "сорока" },
+    { word: "spring", meaning: "весна" },
+    { word: "forest", meaning: "ліс" },
+    { word: "grass", meaning: "трава" },
+    { word: "bud", meaning: "брунька" },
+    { word: "tree", meaning: "дерево" },
+    { word: "bush", meaning: "кущ" },
+    { word: "farm", meaning: "ферма" },
+    { word: "home", meaning: "дім" },
+    { word: "day", meaning: "день" },
+    { word: "sun", meaning: "сонце" },
+    { word: "wind", meaning: "вітер" },
+    { word: "twig", meaning: "гілочка" },
+    { word: "base", meaning: "основа" },
+    { word: "root", meaning: "корінь" },
+    { word: "nest", meaning: "гніздо" },
+    { word: "rain", meaning: "дощ" },
+    { word: "squirrel", meaning: "білка" },
+    { word: "mushroom", meaning: "гриб" },
+    { word: "hazelnut", meaning: "фундук" },
+    { word: "walnut", meaning: "волоський горіх" },
+    { word: "porridge", meaning: "каша" },
+    { word: "breakfast", meaning: "сніданок" },
+    { word: "eggs", meaning: "яйця" },
+    { word: "color", meaning: "колір" },
+    { word: "week", meaning: "тиждень" }
+  ],
+
+  verbs: [
+    { word: "wake", meaning: "прокидатися" },
+    { word: "want", meaning: "хотіти" },
+    { word: "fly", meaning: "літати" },
+    { word: "find", meaning: "знаходити" },
+    { word: "carry", meaning: "нести" },
+    { word: "put", meaning: "класти" },
+    { word: "make", meaning: "робити" },
+    { word: "fall", meaning: "падати" },
+    { word: "pick", meaning: "збирати / піднімати" },
+    { word: "work", meaning: "працювати" },
+    { word: "help", meaning: "допомагати" },
+    { word: "feel", meaning: "відчувати" },
+    { word: "sleep", meaning: "спати" },
+    { word: "give", meaning: "давати" },
+    { word: "eat", meaning: "їсти" },
+    { word: "come", meaning: "приходити" },
+    { word: "add", meaning: "додавати" },
+    { word: "shine", meaning: "світити" },
+    { word: "sit", meaning: "сидіти" },
+    { word: "stay", meaning: "залишатися" },
+    { word: "warm", meaning: "гріти" }
+  ],
+
+  adjectives: [
+    { word: "beautiful", meaning: "гарний" },
+    { word: "round", meaning: "круглий" },
+    { word: "soft", meaning: "м'який" },
+    { word: "thin", meaning: "тонкий" },
+    { word: "tall", meaning: "високий" },
+    { word: "hard", meaning: "твердий" },
+    { word: "good", meaning: "добрий / хороший" },
+    { word: "sad", meaning: "сумний" },
+    { word: "wet", meaning: "мокрий" },
+    { word: "shiny", meaning: "блискучий" },
+    { word: "special", meaning: "особливий" },
+    { word: "blue", meaning: "синій" },
+    { word: "little", meaning: "маленький" }
+  ],
+
+  adverbs: [
+    { word: "so", meaning: "так" },
+    { word: "down", meaning: "вниз" },
+    { word: "around", meaning: "навколо" },
+    { word: "again", meaning: "знову" },
+    { word: "inside", meaning: "всередині" },
+    { word: "outside", meaning: "назовні" },
+    { word: "happily", meaning: "щасливо" },
+    { word: "brightly", meaning: "яскраво" },
+    { word: "all", meaning: "усі / весь" },
+    { word: "long", meaning: "довго" }
+  ],
+
+  prepositions: [
+    { word: "at", meaning: "у / біля" },
+    { word: "to", meaning: "до" },
+    { word: "on", meaning: "на" },
+    { word: "under", meaning: "під" },
+    { word: "into", meaning: "всередину" },
+    { word: "inside", meaning: "в / всередині" },
+    { word: "outside", meaning: "зовні / за межами" },
+    { word: "after", meaning: "після" }
+  ]
+},
+  tasks: {
+    task1: {
+      name: "Repeat if true (clap if true)",
+      list: [
+        "The magpie is black and white.",
+        "The grass is blue.",
+        "The nest is in a tree.",
+        "The rain falls on Thursday.",
+        "The squirrel carries porridge.",
+      ],
+    },
+    task2: {
+      name: "Guess what animal this is:",
+      list: [
+        "“I am black and white. I like shiny things.”",
+        "“I carry a mushroom.”",
+        "“I sit in mud.”",
+        "“I build a dam.”",
+        "“I sleep under a bush.”",
+      ],
+    },
+  },
+};
