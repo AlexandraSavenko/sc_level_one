@@ -4,17 +4,20 @@ import { stories } from "../../stories";
 
 const Vocabulary = () => {
   const { storyId } = useParams();
-  
-  const story = stories.find(s => s.id === storyId);
-  const storyVocabulary = story.vocabulary;
-  const storyVocabularyList = Object.keys(storyVocabulary)
-console.log(story)
+
+  const story = stories.find((s) => s.id === storyId);
+  console.log(story);
   return (
     <div>
-      {storyVocabularyList.map((partOfSpeach, index) => (
-        <p key={index}>
-          <strong>{partOfSpeach}</strong> – {storyVocabulary[partOfSpeach]}
-        </p>
+      {Object.entries(story.vocabulary).map(([category, words]) => (
+        <div key={category}>
+          <h2>{category}</h2>
+          {words.map((item, i) => (
+            <p key={i}>
+              {item.word} — {item.meaning}
+            </p>
+          ))}
+        </div>
       ))}
     </div>
   );

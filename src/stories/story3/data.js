@@ -1,48 +1,138 @@
 export const story3 = {
-    id: "story3",
-    title: "Bite and His Teeth",
-    pages: [
-        {
-            id: 1,
-            imageURL: "/story_images/third_story/third_story_1.png",
-            altText: "",
-            text: "This is Bite, the little puppy. He is small. His nose it wet. His eyes are big. His ears are droopy. His mouth is big and pink. There are no teeth in his mouth. He walks out of the house and sees a puddle. There is water in the puddle. It is wet. The puppy keeps walking. Then he says “Oh, my mouth… What is it? What is in my mouth?” "
-        },
-        {
-            id: 2,
-            imageURL: "/story_images/third_story/third_story_2.png",
-            altText: "",
-            text: ""
-        },
-        {
-            id: 3,
-            imageURL: "/story_images/third_story/third_story_3.png",
-            altText: "",
-            text: ""
-        },
-        {
-            id: 4,
-            imageURL: "/story_images/third_story/third_story_4.png",
-            altText: "",
-            text: ""
-        },
-        {
-            id: 5,
-            imageURL: "/story_images/third_story/third_story_5.png",
-            altText: "",
-            text: ""
-        },
-        {
-            id: 6,
-            imageURL: "/story_images/third_story/third_story_6.png",
-            altText: "",
-            text: ""
-        },
-        {
-            id: 7,
-            imageURL: "/story_images/third_story/third_story_7.png",
-            altText: "",
-            text: ""
-        }
-    ]
-}
+  id: "story3",
+  title: "Bite and His Teeth",
+  pages: [
+    {
+      id: 1,
+      imageURL: "/story_images/third_story/third_story_1.png",
+      altText: "",
+      text: "This is Bite, the little puppy. He is small. His nose it wet. His eyes are big. His ears are droopy. His mouth is big and pink. There are no teeth in his mouth. He walks out of the house and sees a puddle. There is water in the puddle. It is wet. The puppy keeps walking. Then he says “Oh, my mouth… What is it? What is in my mouth?” ",
+    },
+    {
+      id: 2,
+      imageURL: "/story_images/third_story/third_story_2.png",
+      altText: "",
+      text: "",
+    },
+    {
+      id: 3,
+      imageURL: "/story_images/third_story/third_story_3.png",
+      altText: "",
+      text: "",
+    },
+    {
+      id: 4,
+      imageURL: "/story_images/third_story/third_story_4.png",
+      altText: "",
+      text: "",
+    },
+    {
+      id: 5,
+      imageURL: "/story_images/third_story/third_story_5.png",
+      altText: "",
+      text: "",
+    },
+    {
+      id: 6,
+      imageURL: "/story_images/third_story/third_story_6.png",
+      altText: "",
+      text: "",
+    },
+    {
+      id: 7,
+      imageURL: "/story_images/third_story/third_story_7.png",
+      altText: "",
+      text: "",
+    },
+  ],
+  vocabulary: {
+    nouns: [
+      { word: "bite", meaning: "укус" },
+      { word: "puppy", meaning: "цуценя" },
+      { word: "mouth", meaning: "рот" },
+      { word: "teeth", meaning: "зуби" },
+      { word: "tooth", meaning: "зуб" },
+      { word: "house", meaning: "будинок" },
+      { word: "puddle", meaning: "калюжа" },
+      { word: "water", meaning: "вода" },
+      { word: "crow", meaning: "ворона" },
+      { word: "tummy", meaning: "животик" },
+      { word: "beak", meaning: "дзьоб" },
+      { word: "cow", meaning: "корова" },
+      { word: "pig", meaning: "свиня" },
+      { word: "wolf", meaning: "вовк" },
+      { word: "others", meaning: "інші" },
+      { word: "tree", meaning: "дерево" },
+      { word: "boy", meaning: "хлопчик" },
+      { word: "name", meaning: "ім'я" },
+    ],
+
+    verbs: [
+      { word: "walk", meaning: "йти пішки" },
+      { word: "keep", meaning: "тримати / зберігати" },
+      { word: "see", meaning: "бачити" },
+      { word: "say", meaning: "казати / сказати" },
+      { word: "meet", meaning: "зустрічати" },
+      { word: "look", meaning: "дивитися" },
+      { word: "open", meaning: "відкривати" },
+      { word: "like", meaning: "подобатися / любити" },
+      { word: "bite", meaning: "кусати" },
+      { word: "eat", meaning: "їсти" },
+      { word: "smile", meaning: "посміхатися" },
+      { word: "cut", meaning: "різати" },
+      { word: "play", meaning: "гратися" },
+    ],
+
+    adjectives: [
+      { word: "little", meaning: "маленький" },
+      { word: "small", meaning: "малий" },
+      { word: "wet", meaning: "мокрий" },
+      { word: "big", meaning: "великий" },
+      { word: "droopy", meaning: "обвислий" },
+      { word: "pink", meaning: "рожевий" },
+      { word: "purple", meaning: "фіолетовий" },
+      { word: "old", meaning: "старий" },
+      { word: "black", meaning: "чорний" },
+      { word: "grey", meaning: "сірий" },
+      { word: "long", meaning: "довгий" },
+      { word: "white", meaning: "білий" },
+      { word: "sharp", meaning: "гострий" },
+      { word: "nervous", meaning: "нервовий / схвильований" },
+    ],
+
+    other: [
+      { word: "then", meaning: "потім" },
+      { word: "away", meaning: "геть / подалі" },
+      { word: "back", meaning: "назад" },
+      { word: "never", meaning: "ніколи" },
+      { word: "together", meaning: "разом" },
+      { word: "of", meaning: "з / від (родовий зв'язок)" },
+      { word: "in", meaning: "в / у" },
+      { word: "out", meaning: "назовні" },
+      { word: "with", meaning: "з" },
+      { word: "at", meaning: "біля / у / о" },
+      { word: "for", meaning: "для / за" },
+    ],
+  },
+  tasks: {
+    task1: {
+      name: "Repeat if true (clap if true)",
+      list: [
+        "The puppy is small.",
+        "The crow is pink.",
+        "The wolf has sharp teeth.",
+        "The cow likes to bite.",
+        "The beaver builds a dam.",
+      ],
+    },
+    task2: {
+      name: "Guess who:",
+      list: [
+        "“I am big and black. I can fly.”",
+        "“I have sharp teeth. I can bite. My fur is grey”",
+        "“I build a dam.”",
+        "“I am small. My ears are droopy.”",
+      ],
+    },
+  },
+};

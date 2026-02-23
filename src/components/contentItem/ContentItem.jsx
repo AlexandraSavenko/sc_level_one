@@ -11,7 +11,7 @@ const ContentItem = ({storyNumber}) => {
       <NavLink to={`story${storyNumber}/vocabulary`}>Vocabulary</NavLink>
       </li>
       <li>
-      <NavLink to={`story${storyNumber}/afex`}>After text activities</NavLink>
+      <NavLink to={`story${storyNumber}/activities`}>Activities</NavLink>
       </li>
       <li>
       <NavLink to={`story${storyNumber}/speaking`}>Speaking activities</NavLink>

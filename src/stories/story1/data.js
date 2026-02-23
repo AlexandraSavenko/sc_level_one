@@ -52,12 +52,52 @@ export const story1 = {
     },
   ],
   vocabulary: {
-    nouns:
-      ["nose, eyes, fur, hair, teeth, ears, tail, river, lodge, house, dam, branch, mud, stick, wall, shore"],
-    verbs: ["build, carry, repair, swim, help, teach, collect, work"],
-    adjectives: ["heavy, careful, strong, fast, thin, small, old"],
-    adverbs: ["together"],
-    prepositions: ["near"],
+    nouns: [
+      { word: "nose", meaning: "ніс" },
+      { word: "eyes", meaning: "очі" },
+      { word: "fur", meaning: "хутро" },
+      { word: "hair", meaning: "волосся" },
+      { word: "teeth", meaning: "зуби" },
+      { word: "ears", meaning: "вуха" },
+      { word: "tail", meaning: "хвіст" },
+
+      { word: "river", meaning: "річка" },
+      { word: "lodge", meaning: "хатинка (боброва)" },
+      { word: "house", meaning: "будинок" },
+      { word: "dam", meaning: "гребля" },
+      { word: "branch", meaning: "гілка" },
+      { word: "mud", meaning: "багно" },
+      { word: "stick", meaning: "палиця" },
+      { word: "wall", meaning: "стіна" },
+      { word: "shore", meaning: "берег" },
+    ],
+
+    verbs: [
+      { word: "build", meaning: "будувати" },
+      { word: "carry", meaning: "нести" },
+      { word: "repair", meaning: "ремонтувати" },
+      { word: "swim", meaning: "плавати" },
+      { word: "help", meaning: "допомагати" },
+      { word: "teach", meaning: "вчити / навчати" },
+      { word: "collect", meaning: "збирати" },
+      { word: "work", meaning: "працювати" },
+    ],
+
+    adjectives: [
+      { word: "heavy", meaning: "важкий" },
+      { word: "careful", meaning: "обережний" },
+      { word: "strong", meaning: "сильний" },
+      { word: "fast", meaning: "швидкий" },
+      { word: "thin", meaning: "тонкий" },
+      { word: "small", meaning: "малий" },
+      { word: "old", meaning: "старий" },
+    ],
+
+    other: [
+      { word: "near", meaning: "біля / поруч" },
+      { word: "because", meaning: "тому що" },
+      { word: "together", meaning: "разом" },
+    ],
   },
   tasks: {
     task1: {
@@ -86,4 +126,31 @@ export const story1 = {
       list: ["I am fast.", "I am strong.", "I am careful.", "I am small."],
     },
   },
+  speaking: [
+  {
+    id: "who-is-this",
+    type: "this-is",
+    dialogue: [
+      { speaker: "A", line: "Who is this?" },
+      { speaker: "B", line: "This is a mother." },
+    ],
+    table: {
+      prefix: "This is",
+      options: ["mother", "father", "sister", "brother", "granny"],
+    }
+  },
+  {
+    id: "can-beaver",
+    type: "can-verb",
+    dialogue: [
+      { speaker: "A", line: "Can a beaver swim?" },
+      { speaker: "B", line: "Yes, a beaver can swim." },
+    ],
+    table: {
+      modal: "Can",
+      subject: "beaver",
+      verbs: ["swim", "collect", "repair", "build", "carry"],
+    }
+  }
+]
 };

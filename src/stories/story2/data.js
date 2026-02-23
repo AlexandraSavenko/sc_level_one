@@ -46,15 +46,59 @@ export const story2 = {
     },
   ],
   vocabulary: {
-    nouns:
-      "morning, tree, friend, duck, feather, beak, rock, otter, fox, home, bird, duck",
-    verbs:
-      "wake up, sing, check, keep, catch, say, walk, cross, want, feel, help, swim, look, smile",
-    adjectives:
-      "thick, wide, flat, long, calm, quiet, wooden, deep, safe, back, angry",
-    adverbs: "every, early, safely, all, around",
-    prepositions: "in",
-  },
+  nouns: [
+    { word: "morning", meaning: "ранок" },
+    { word: "tree", meaning: "дерево" },
+    { word: "friend", meaning: "друг" },
+    { word: "duck", meaning: "качка" },
+    { word: "feather", meaning: "пір'їна" },
+    { word: "beak", meaning: "дзьоб" },
+    { word: "rock", meaning: "камінь" },
+    { word: "otter", meaning: "видра" },
+    { word: "fox", meaning: "лисиця" },
+    { word: "home", meaning: "дім / домівка" },
+    { word: "bird", meaning: "птах" },
+  ],
+
+  verbs: [
+    { word: "wake up", meaning: "прокидатися" },
+    { word: "sing", meaning: "співати" },
+    { word: "check", meaning: "перевіряти" },
+    { word: "keep", meaning: "зберігати / тримати" },
+    { word: "catch", meaning: "ловити" },
+    { word: "say", meaning: "сказати / казати" },
+    { word: "walk", meaning: "йти пішки" },
+    { word: "cross", meaning: "перетинати" },
+    { word: "want", meaning: "хотіти" },
+    { word: "feel", meaning: "відчувати" },
+    { word: "help", meaning: "допомагати" },
+    { word: "swim", meaning: "плавати" },
+    { word: "look", meaning: "дивитися" },
+    { word: "smile", meaning: "посміхатися" },
+  ],
+
+  adjectives: [
+    { word: "thick", meaning: "товстий / густий" },
+    { word: "wide", meaning: "широкий" },
+    { word: "flat", meaning: "плоский" },
+    { word: "long", meaning: "довгий" },
+    { word: "calm", meaning: "спокійний" },
+    { word: "quiet", meaning: "тихий" },
+    { word: "wooden", meaning: "дерев'яний" },
+    { word: "deep", meaning: "глибокий" },
+    { word: "safe", meaning: "безпечний" },
+    { word: "back", meaning: "задній / назад" },
+    { word: "angry", meaning: "сердитий" },
+  ],
+
+  other: [
+    { word: "every", meaning: "кожний" },
+    { word: "early", meaning: "рано" },
+    { word: "safely", meaning: "безпечно" },
+    { word: "all", meaning: "всі / все" },
+    { word: "around", meaning: "навколо" },
+  ],
+},
   tasks: {
     task1: {
       name: "Who can say this",
