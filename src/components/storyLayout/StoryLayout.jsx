@@ -5,7 +5,6 @@ import { stories } from "../../stories";
 function StoryLayout() {
   const { storyId } = useParams();
   const story = stories.find(s => s.id === storyId);
-console.log(story)
   return (
     <div>
       <h1>{story.title}</h1>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
 import { stories } from '../../stories';
+import SpeakButton from '../speakButton/SpeakButton';
 
 const Reading = () => {
     const { storyId } = useParams();
@@ -23,7 +24,9 @@ const Reading = () => {
           )}
 
           {/* Content blocks */}
-          {page.text && <p>{page.block}</p> }
+          {page.text && <div>
+            <SpeakButton text={page.text}/>
+            <p>{page.text}</p></div>  }
         </div>
       ))}
     </div>

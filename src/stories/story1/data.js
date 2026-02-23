@@ -1,6 +1,7 @@
 export const story1 = {
   id: "story1",
   title: "The Little Beaver’s Family",
+  storyFolder: "first-story",
   pages: [
     {
       id: 1,
@@ -137,7 +138,8 @@ export const story1 = {
     table: {
       prefix: "This is",
       options: ["mother", "father", "sister", "brother", "granny"],
-    }
+    },
+    images: ["family"]
   },
   {
     id: "can-beaver",
@@ -150,7 +152,8 @@ export const story1 = {
       modal: "Can",
       subject: "beaver",
       verbs: ["swim", "collect", "repair", "build", "carry"],
-    }
+    },
+    images: ["carry", "swim", "collect", "build", "repair"]
   }
 ]
 };

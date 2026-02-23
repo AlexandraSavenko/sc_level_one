@@ -25,6 +25,12 @@ const SpeakingTask = () => {
     </div>
   ))}
 </div>
+<div>
+    {task.images.map(el => ( <div key={el}>
+        <img src={`/public/story_images/${story.storyFolder}/activity_2_${el}`} alt={el} />
+        <p>{el}</p>
+    </div> ))}
+</div>
       {/* render table based on type here */}
     </div>
   );
