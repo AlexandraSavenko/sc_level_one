@@ -144,6 +144,22 @@ export const story2 = {
   },
   speaking: [
     {
+      id: "who-has-red-tail",
+      type: "dialogue",
+      dialogue: [
+        {speaker: "A", line: "Who has red tail?"},
+        {speaker: "B", line: "Fox has red tail"}
+      ],
+      table: {
+        column1: ["beaver", "fox", "otter", "duck"],
+        column2: "has",
+        column3: ["red", "brown", "white", "yellow", "green", "long", "grey"],
+        column4: ["teeth", "eyes", "nose", "ears", "tail", "head", "beak"]
+      },
+      images: ["beaver-head", "fox-head", "otter-head", "duck-head", "beaver-tail", "fox-tail", "otter-tail", "duck-tail"]
+
+    },
+    {
       id: "fox-has-long-tail",
       type: "sentence",
       dialogue: [
@@ -152,14 +168,12 @@ export const story2 = {
 
       ],
       table: {
-        column1: ["beaver, fox, otter"],
+        column1: ["beaver", "fox", "otter"],
         column2: "has",
         column3: ["big", "small", "sharp", "wide", "flat", "long"],
         column4: ["teeth", "eyes", "nose", "ears", "tail"]
-      }
-    },
-    {
-      id: ""
+      },
+      images: ["beaver", "fox", "otter"]
     }
   ]
 };
