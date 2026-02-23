@@ -2,7 +2,8 @@ import React from 'react'
 import { story1 } from './data'
 import StoryPage from '../../components/storyPage/StoryPage'
 import Vocabulary from '../../components/vocabulary/Vocabulary'
-import ReadingTasks from './ReadingTasks'
+import ReadingTasks from '../../components/readingTasks/ReadingTasks'
+
 
 const Story1 = () => {
   return (

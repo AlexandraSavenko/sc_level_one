@@ -53,11 +53,11 @@ export const story1 = {
   ],
   vocabulary: {
     nouns:
-      "nose, eyes, fur, hair, teeth, ears, tail, river, lodge, house, dam, branch, mud, stick, wall, shore",
-    verbs: "build, carry, repair, swim, help, teach, collect, work",
-    adjectives: "heavy, careful, strong, fast, thin, small, old",
-    adverbs: "together",
-    prepositions: "near",
+      ["nose, eyes, fur, hair, teeth, ears, tail, river, lodge, house, dam, branch, mud, stick, wall, shore"],
+    verbs: ["build, carry, repair, swim, help, teach, collect, work"],
+    adjectives: ["heavy, careful, strong, fast, thin, small, old"],
+    adverbs: ["together"],
+    prepositions: ["near"],
   },
   tasks: {
     task1: {

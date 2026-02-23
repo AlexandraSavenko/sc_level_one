@@ -1,20 +1,30 @@
 import { Link, Route, Routes } from 'react-router-dom'
 import './App.css'
-import Story1 from './stories/story1/Story1'
-import Story2 from './stories/story2/Story2'
+import Layout from './components/layout/Layout'
+import StoryLayout from './components/storyLayout/StoryLayout'
+import Vocabulary from './components/vocabulary/Vocabulary'
+import Activities from './components/activities/Activities'
+import Reading from './components/reading/Reading'
 
 function App() {
 
   return (
-    <div>
-      My speaking club
-      <Link to={"/story1"}>Story 1</Link>
-      <Link to={"/story2"}>Story 2</Link>
-      <Routes>
-        <Route path='/story1' element={<Story1/>}/>
-        <Route path='/story2' element={<Story2/>}/>
+    <>
+      <Layout>
+        <Routes>
+        <Route path=':storyId' element={<StoryLayout/>}>
+        <Route path='story' element={<Reading/>} />
+        <Route path='vocabulary' element={<Vocabulary/>} />
+        <Route path='activities' element={<Activities/>} />
+
+        {/* <Route path='speaking' element={} />
+        <Route path='games' element={} />
+        <Route path='tests' element={} /> */}
+
+        </Route>
       </Routes>
-    </div>
+      </Layout>
+    </>
   )
 }
 

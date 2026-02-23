@@ -1,16 +1,22 @@
 import React from "react";
+import { useParams } from "react-router-dom";
+import { stories } from "../../stories";
 
-const Vocabulary = ({voc}) => {
-  const vocabularyList = Object.keys(voc);
+const Vocabulary = () => {
+  const { storyId } = useParams();
+  
+  const story = stories.find(s => s.id === storyId);
+  const storyVocabulary = story.vocabulary;
+  const storyVocabularyList = Object.keys(storyVocabulary)
+console.log(story)
   return (
-    <ul>
-      {vocabularyList.map((el, index) => (
-        <li key={index}>
-          <h4>{el}</h4>
-          <p>{voc[el]}</p>{" "}
-        </li>
+    <div>
+      {storyVocabularyList.map((partOfSpeach, index) => (
+        <p key={index}>
+          <strong>{partOfSpeach}</strong> – {storyVocabulary[partOfSpeach]}
+        </p>
       ))}
-    </ul>
+    </div>
   );
 };
 

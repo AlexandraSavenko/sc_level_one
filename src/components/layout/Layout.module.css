@@ -1,0 +1,9 @@
+.layout{
+    position: relative;
+    border: 3px solid red;
+    background-color: bisque;
+    overflow: hidden;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
