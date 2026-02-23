@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { stories } from "../../stories";
+import SpeakButton from "../speakButton/SpeakButton";
 
 
 const SpeakingTask = () => {
@@ -11,9 +12,13 @@ const SpeakingTask = () => {
   return (
     <div>
       {task.dialogue.map((line, i) => (
-        <p key={i}>
+        <div>
+          <SpeakButton text={line.line}/>
+          <p key={i}>
           <strong>{line.speaker}:</strong> {line.line}
         </p>
+        </div>
+        
       ))}
 <div className="table">
   {Object.entries(task.table).map((el, index) => (
@@ -27,8 +32,12 @@ const SpeakingTask = () => {
 </div>
 <div>
     {task.images.map(el => ( <div key={el}>
-        <img src={`/public/story_images/${story.storyFolder}/activity_2_${el}`} alt={el} />
-        <p>{el}</p>
+        <img src={`/story_images/${story.id}/${task.id}_${el}.png`} alt={el} />
+        <div>
+          <SpeakButton text={el}/>
+          <p>{el}</p>
+        </div>
+        
     </div> ))}
 </div>
       {/* render table based on type here */}
