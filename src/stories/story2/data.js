@@ -148,7 +148,7 @@ export const story2 = {
       type: "dialogue",
       dialogue: [
         {speaker: "A", line: "Who has red tail?"},
-        {speaker: "B", line: "Fox has red tail"}
+        {speaker: "B", line: "A fox has red tail."}
       ],
       table: {
         column1: ["beaver", "fox", "otter", "duck"],

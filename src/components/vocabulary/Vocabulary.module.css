@@ -1,0 +1,13 @@
+.vocabularyBox{
+    padding: 0.5rem;
+}
+.wordList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.wordLine{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}

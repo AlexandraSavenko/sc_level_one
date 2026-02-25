@@ -1,4 +1,4 @@
-import React from "react";
+import css from "./Vocabulary.module.css";
 import { useParams } from "react-router-dom";
 import { stories } from "../../stories";
 import SpeakButton from "../speakButton/SpeakButton";
@@ -9,19 +9,20 @@ const Vocabulary = () => {
   const story = stories.find((s) => s.id === storyId);
   console.log(story);
   return (
-    <div>
+    <div className={css.vocabularyBox}>
       {Object.entries(story.vocabulary).map(([category, words]) => (
         <div key={category}>
           <h2>{category}</h2>
-          {words.map((item, i) => (
-            <div>
-              <SpeakButton text={item.word} />
-              <p key={i}>
-              {item.word} — {item.meaning}
-            </p>
-            </div>
-            
-          ))}
+          <ul className={css.wordList}>
+            {words.map((item, i) => (
+              <li className={css.wordLine}>
+                <SpeakButton text={item.word} />
+                <p key={i}>
+                  {item.word} — {item.meaning}
+                </p>
+              </li>
+            ))}
+          </ul>
         </div>
       ))}
     </div>
