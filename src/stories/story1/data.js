@@ -1,6 +1,7 @@
 export const story1 = {
   id: "story1",
-  title: "The Little Beaver’s Family",
+  title: "The Little Beaver and his Family",
+  file: "https://drive.google.com/file/d/1OxhrruWq1vpPTYQDRSRg5oZ95KsoLYrn/view?usp=sharing",
   pages: [
     {
       id: 1,
@@ -146,5 +147,6 @@ export const story1 = {
     },
     images: ["carry", "swim", "collect", "build", "repair"]
   }
-]
+],
+games: {nouns: "https://learningapps.org/display?v=p88pryvs226", verbs: "https://learningapps.org/display?v=pugqzuvjc26", adjectives: "https://learningapps.org/display?v=pzpe6s4wk26", bodyParts: "https://learningapps.org/display?v=pyh438eva26"}
 };

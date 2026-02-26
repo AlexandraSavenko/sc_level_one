@@ -1,0 +1,23 @@
+.imageBox {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+.imageBox .image {
+  width: 100%;
+  border-radius: 8px;
+  background-color: white;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  display: block;
+}
+
+.imageBox .textBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}

@@ -1,6 +1,7 @@
 export const story2 = {
   id: "story2",
   title: "Ben the Beaver and the River Friends",
+  file: "https://drive.google.com/file/d/1V4B0YeNjv6wH9ky3ZnTQnQZ8JVyzTmHp/view?usp=sharing",
   pages: [
     {
       id: 1,
@@ -175,5 +176,6 @@ export const story2 = {
       },
       images: ["beaver", "fox", "otter"]
     }
-  ]
+  ],
+  games: {animals: "https://learningapps.org/display?v=p9ckdt21526", actions: "https://learningapps.org/display?v=pyde5z87326"}
 };

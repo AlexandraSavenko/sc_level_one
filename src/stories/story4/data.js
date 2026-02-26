@@ -1,6 +1,7 @@
 export const story4 = {
   id: "story4",
   title: "The Squirrel and the Four Seasons",
+  file: "https://drive.google.com/file/d/1zHTOqhOwzeF9HzWZS5KRtRmKwuK5lCSZ/view?usp=sharing",
   pages: [
     {
       id: 1,
@@ -44,67 +45,67 @@ export const story4 = {
     },
   ],
   vocabulary: {
-  nouns: [
-    { word: "squirrel", meaning: "білка" },
-    { word: "oak", meaning: "дуб" },
-    { word: "seasons", meaning: "пори року" },
-    { word: "spring", meaning: "весна" },
-    { word: "summer", meaning: "літо" },
-    { word: "autumn", meaning: "осінь" },
-    { word: "winter", meaning: "зима" },
-    { word: "days", meaning: "дні" },
-    { word: "apples", meaning: "яблука" },
-    { word: "cherries", meaning: "вишні" },
-    { word: "acorns", meaning: "жолуді" },
-    { word: "oaks", meaning: "дуби" },
-    { word: "walnuts", meaning: "волоські горіхи" },
-    { word: "hazelnuts", meaning: "фундук" },
-    { word: "pumpkins", meaning: "гарбузи" },
-    { word: "seeds", meaning: "насіння" },
-    { word: "snow", meaning: "сніг" },
-    { word: "nuts", meaning: "горіхи" }
-  ],
+    nouns: [
+      { word: "squirrel", meaning: "білка" },
+      { word: "oak", meaning: "дуб" },
+      { word: "seasons", meaning: "пори року" },
+      { word: "spring", meaning: "весна" },
+      { word: "summer", meaning: "літо" },
+      { word: "autumn", meaning: "осінь" },
+      { word: "winter", meaning: "зима" },
+      { word: "days", meaning: "дні" },
+      { word: "apples", meaning: "яблука" },
+      { word: "cherries", meaning: "вишні" },
+      { word: "acorns", meaning: "жолуді" },
+      { word: "oaks", meaning: "дуби" },
+      { word: "walnuts", meaning: "волоські горіхи" },
+      { word: "hazelnuts", meaning: "фундук" },
+      { word: "pumpkins", meaning: "гарбузи" },
+      { word: "seeds", meaning: "насіння" },
+      { word: "snow", meaning: "сніг" },
+      { word: "nuts", meaning: "горіхи" },
+    ],
 
-  verbs: [
-    { word: "live", meaning: "жити" },
-    { word: "grows", meaning: "росте" },
-    { word: "grow", meaning: "рости" },
-    { word: "collect", meaning: "збирати" },
-    { word: "like", meaning: "подобатися / любити" },
-    { word: "smile", meaning: "усміхатися" },
-    { word: "am", meaning: "є (форма дієслова to be)" },
-    { word: "have", meaning: "мати" },
-    { word: "find", meaning: "знаходити" }
-  ],
+    verbs: [
+      { word: "live", meaning: "жити" },
+      { word: "grows", meaning: "росте" },
+      { word: "grow", meaning: "рости" },
+      { word: "collect", meaning: "збирати" },
+      { word: "like", meaning: "подобатися / любити" },
+      { word: "smile", meaning: "усміхатися" },
+      { word: "am", meaning: "є (форма дієслова to be)" },
+      { word: "have", meaning: "мати" },
+      { word: "find", meaning: "знаходити" },
+    ],
 
-  adjectives: [
-    { word: "fresh", meaning: "свіжий" },
-    { word: "sweet", meaning: "солодкий" },
-    { word: "warm", meaning: "теплий" },
-    { word: "bright", meaning: "яскравий" },
-    { word: "thick", meaning: "густий / товстий" },
-    { word: "thin", meaning: "тонкий" },
-    { word: "yellow", meaning: "жовтий" },
-    { word: "orange", meaning: "помаранчевий" },
-    { word: "oval", meaning: "овальний" },
-    { word: "round", meaning: "круглий" },
-    { word: "dry", meaning: "сухий" },
-    { word: "cold", meaning: "холодний" }
-  ],
+    adjectives: [
+      { word: "fresh", meaning: "свіжий" },
+      { word: "sweet", meaning: "солодкий" },
+      { word: "warm", meaning: "теплий" },
+      { word: "bright", meaning: "яскравий" },
+      { word: "thick", meaning: "густий / товстий" },
+      { word: "thin", meaning: "тонкий" },
+      { word: "yellow", meaning: "жовтий" },
+      { word: "orange", meaning: "помаранчевий" },
+      { word: "oval", meaning: "овальний" },
+      { word: "round", meaning: "круглий" },
+      { word: "dry", meaning: "сухий" },
+      { word: "cold", meaning: "холодний" },
+    ],
 
-  adverbs: [
-    { word: "now", meaning: "зараз" },
-    { word: "too", meaning: "також / занадто" },
-    { word: "also", meaning: "також" }
-  ],
+    adverbs: [
+      { word: "now", meaning: "зараз" },
+      { word: "too", meaning: "також / занадто" },
+      { word: "also", meaning: "також" },
+    ],
 
-  prepositions: [
-    { word: "under", meaning: "під" },
-    { word: "by", meaning: "біля / поруч" },
-    { word: "for", meaning: "для" },
-    { word: "at", meaning: "у / при / біля" }
-  ]
-},
+    prepositions: [
+      { word: "under", meaning: "під" },
+      { word: "by", meaning: "біля / поруч" },
+      { word: "for", meaning: "для" },
+      { word: "at", meaning: "у / при / біля" },
+    ],
+  },
   tasks: {
     task1: {
       name: "Clap if the food is from the forest.",
@@ -120,4 +121,41 @@ export const story4 = {
       ],
     },
   },
+  speaking: [
+    {
+      id: "who-lives-in-tree",
+      type: "dialogue",
+      dialogue: [
+        { speaker: "A", line: "Who lives in a tree?" },
+        { speaker: "B", line: "A squirrel lives in a tree" },
+      ],
+      table: {
+        column1: [
+          "A crow",
+          "A boy",
+          "A magpie",
+          "A beaver",
+          "A duck",
+          "A squirrel",
+          "An otter",
+        ],
+        column2: "lives",
+        column3: "in",
+        column4: ["a tree", "a nest", "a house", "a lodge", "a river"],
+      },
+      images: {
+        column1: ["tree", "nest", "lodge", "house", "river"],
+        column2: [
+          "crow",
+          "boy",
+          "magpie",
+          "beaver",
+          "duck",
+          "squirrel",
+          "otter",
+        ],
+      },
+    },
+  ],
+  games: {food: "https://learningapps.org/watch?v=ptry3v5rc26", sentences: "https://learningapps.org/display?v=pzjnqcwpa26"}
 };

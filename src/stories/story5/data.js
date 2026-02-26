@@ -1,6 +1,7 @@
 export const story5 = {
   id: "story5",
   title: "Maggie the magpie builds a nest",
+  file: "https://drive.google.com/file/d/1dpMfWdNyBpjdSQCy3z942q4rr_zb61YG/view?usp=sharing",
   pages: [
     {
       id: 1,
@@ -179,4 +180,5 @@ export const story5 = {
       ],
     },
   },
+  games: {nouns: "https://learningapps.org/display?v=p0phua34n26", sentences: "https://learningapps.org/display?v=pd90tgbxj26"}
 };

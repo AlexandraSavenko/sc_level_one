@@ -1,6 +1,7 @@
 export const story3 = {
   id: "story3",
   title: "Bite and His Teeth",
+  file: "https://drive.google.com/file/d/1ToPN-xdRjinRk9EORK884oLiSmp7pPlV/view?usp=sharing",
   pages: [
     {
       id: 1,
@@ -128,4 +129,7 @@ export const story3 = {
       ],
     },
   },
+  games: {
+    nouns: "https://learningapps.org/watch?v=p7qx5m5pj26", sentences: "https://learningapps.org/watch?v=pbpnhffw326"
+  }
 };
