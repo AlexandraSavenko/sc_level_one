@@ -1,6 +1,7 @@
 export const story6 = {
   id: "story6",
   title: "The Easter Bunny in the English Garden",
+  file: "https://drive.google.com/file/d/1bqas-3my7VUkqFQaHBwtxNn_t17fs53A/view?usp=sharing",
   pages: [
     {
       id: 1,
@@ -184,4 +185,5 @@ export const story6 = {
       images: ["beaver", "fox", "otter"],
     },
   ],
+  games: {nouns: "https://learningapps.org/watch?v=pjjs1d7g226"}
 };
