@@ -1,0 +1,41 @@
+.readingBox {
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.readingContent {
+  background: var(--bg-surface);
+  padding: 2rem;
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+
+.readingContent img {
+  width: 100%;
+  border-radius: 14px;
+  object-fit: cover;
+}
+
+.readingContent p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.textBlock {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+}
+
+.textBlock:nth-child(1){
+    flex-shrink: 0;
+}

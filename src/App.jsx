@@ -8,6 +8,7 @@ import Reading from './components/reading/Reading'
 import SpeakigLayout from './components/speakingLayout/SpeakigLayout'
 import SpeakingTask from './components/speakingTask/SpeakingTask'
 import Tests from './components/tests/Tests'
+import Intro from './components/intro/Intro'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
     <>
       <Layout>
         <Routes>
+          <Route path='/' element={<Intro/>}/>
         <Route path=':storyId' element={<StoryLayout/>}>
         <Route path='story' element={<Reading/>} />
         <Route path='vocabulary' element={<Vocabulary/>} />

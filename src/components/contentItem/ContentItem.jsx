@@ -1,26 +1,23 @@
-import React from 'react'
+import css from './ContentItem.module.css'
 import { NavLink } from 'react-router-dom'
 
 const ContentItem = ({storyNumber}) => {
   return (
-    <ul>
+    <ul className={css.itemBox}>
         <li>
-      <NavLink to={`story${storyNumber}/story`}>{`Story ${storyNumber}`}</NavLink>
+      <NavLink className={({isActive}) => `${css.link} ${isActive && css.active}`} to={`story${storyNumber}/story`}>{`Story ${storyNumber}`}</NavLink>
       </li>
       <li>
-      <NavLink to={`story${storyNumber}/vocabulary`}>Vocabulary</NavLink>
+      <NavLink className={({isActive}) => `${css.link} ${isActive && css.active}`} to={`story${storyNumber}/vocabulary`}>Vocabulary</NavLink>
       </li>
       <li>
-      <NavLink to={`story${storyNumber}/activities`}>Activities</NavLink>
+      <NavLink className={({isActive}) => `${css.link} ${isActive && css.active}`} to={`story${storyNumber}/activities`}>Activities</NavLink>
       </li>
       <li>
-      <NavLink to={`story${storyNumber}/speaking`}>Speaking activities</NavLink>
+      <NavLink className={({isActive}) => `${css.link} ${isActive && css.active}`} to={`story${storyNumber}/speaking`}>Speaking</NavLink>
       </li>
       <li>
-      <NavLink to={`story${storyNumber}/games`}>Games</NavLink>
-      </li>
-      <li>
-      <NavLink to={`story${storyNumber}/tests`}>Tests</NavLink>
+      <NavLink className={({isActive}) => `${css.link} ${isActive && css.active}`} to={`story${storyNumber}/games`}>Games</NavLink>
       </li>
     </ul>
   )

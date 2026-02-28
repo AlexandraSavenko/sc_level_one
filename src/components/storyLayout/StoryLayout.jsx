@@ -1,22 +1,14 @@
 import { useParams, NavLink, Outlet } from "react-router-dom";
 import { stories } from "../../stories";
+import css from "./StoryLayout.module.css"
 
 
 function StoryLayout() {
   const { storyId } = useParams();
   const story = stories.find(s => s.id === storyId);
   return (
-    <div>
+    <div className={css.layoutBox}>
       <h1>{story.title}</h1>
-
-      {/* <nav>
-        {story.menu.map(item => (
-          <NavLink key={item.path} to={item.path}>
-            {item.label}
-          </NavLink>
-        ))}
-      </nav> */}
-
       <Outlet />
     </div>
   );

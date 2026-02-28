@@ -1,4 +1,5 @@
 .speakBtn{
+    flex-shrink: 0;
     --size: 32px;
     --bg: #f6f4ef;
     --border: #cfc8b8;

@@ -1,6 +1,7 @@
 export const story7 = {
   id: "story7",
   title: "The Little Kistka draws pysanka.",
+  file: "https://drive.google.com/file/d/1iTUZKbrucFznu0kYkiwwpkq-uBfxIeQS/view?usp=sharing",
   pages: [
     {
       id: 1,
@@ -165,5 +166,6 @@ adjectives: [
       },
       images: ["beaver", "fox", "otter"]
     }
-  ]
+  ],
+  game: {nouns: "https://learningapps.org/watch?v=pm3a8b5h226", shapes: "https://learningapps.org/display?v=poeefhv5326", sentences: "https://learningapps.org/watch?v=p3r2esg8t26"}
 };

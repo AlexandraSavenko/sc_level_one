@@ -1,0 +1,28 @@
+.taskCard {
+  background: var(--bg-surface);
+  padding: 1.8rem;
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.taskCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+}
+
+.taskList{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.taskList li{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}

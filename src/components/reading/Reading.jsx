@@ -1,4 +1,4 @@
-import React from 'react'
+import css from './Reading.module.css'
 import { useParams } from 'react-router-dom';
 import { stories } from '../../stories';
 import SpeakButton from '../speakButton/SpeakButton';
@@ -10,11 +10,9 @@ const Reading = () => {
 
   if (!story) return <p>Story not found.</p>;
   return (
-    <div>
+    <div className={css.readingBox}>
       {story.pages.map(page => (
-        <div key={page.id}>
-          
-          {/* Image */}
+        <div className={css.readingContent} key={page.id}>
           {page.altText && (
             <img
               src={`/story_images/${story.id}/text_${page.id}.png`}
@@ -22,9 +20,7 @@ const Reading = () => {
               style={{ maxWidth: "100%" }}
             />
           )}
-
-          {/* Content blocks */}
-          {page.text && <div>
+          {page.text && <div className={css.textBlock}>
             <SpeakButton text={page.text}/>
             <p>{page.text}</p></div>  }
         </div>
