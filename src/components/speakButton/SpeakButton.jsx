@@ -5,7 +5,7 @@ const SpeakButton = ({text}) => {
   return (
     <button className={css.speakBtn} onClick={() => speakText(text)} >
         <svg className={css.icon}>
-            <use href="./icons.svg#icon-sound-volume-2-svgrepo-com"></use>
+            <use href="/icons.svg#icon-sound"></use>
           </svg>    
     </button>
   )

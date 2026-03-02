@@ -1,23 +1,80 @@
-.imageBox {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 1rem;
-  padding: 0.5rem;
+.imageWrapper {
+  margin-top: 1.5rem;
 }
 
-.imageBox .image {
+/* Toggle */
+.viewToggle {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.toggleBtn {
+  background: var(--bg-surface);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.toggleBtn:hover {
+  background: var(--accent);
+  color: var(--text-on-dark);
+  border-color: var(--accent);
+}
+
+.imageBoxGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.imageBoxGallery {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+/* Card */
+.card {
+  background: var(--bg-surface);
+  padding: 1rem;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.image {
   width: 100%;
-  border-radius: 8px;
-  background-color: white;
-  aspect-ratio: 1/1;
+  aspect-ratio: 1 / 1;
   object-fit: contain;
+  background: var(--bg-main);
+  border-radius: 12px;
+  padding: 0.5rem;
   display: block;
 }
 
-.imageBox .textBox{
+.textBox {
+  margin-top: 0.8rem;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  padding: 0.5rem;
+  justify-content: space-between;
+}
+
+.textBox p {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-primary);
 }

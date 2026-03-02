@@ -21,7 +21,6 @@ text-hover - brown */
   --shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
 }
 body {
-  background: var(--text-secondary);
   font-family: 'Kindegarten', sans-serif;
 
 }

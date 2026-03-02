@@ -44,11 +44,7 @@ const SpeakingTask = () => {
         ))}
       </div>
       <div className={css.imageBox}>
-        {Array.isArray(task.images) ? (
           <ImageBox images={task.images} />
-        ) : (
-          <ImageTable images={task.images} />
-        )}
       </div>
       {/* render table based on type here */}
     </div>

@@ -120,33 +120,71 @@ export const story1 = {
     },
   },
   speaking: [
-  {
-    id: "who-is-this",
-    type: "this-is",
-    dialogue: [
-      { speaker: "A", line: "Who is this?" },
-      { speaker: "B", line: "This is a mother." },
-    ],
-    table: {
-      prefix: "This is",
-      options: ["mother", "father", "sister", "brother", "granny"],
+    {
+      id: "task2",
+      title: "It is heavy",
+      type: "Look and say",
+      dialogue: [
+        { speaker: "A", line: "Is he strong?" },
+        { speaker: "B", line: "Yes. Is it heavy?" },
+      ],
+      table: {
+        column1: "Is",
+        column2: ["he", "she", "it"],
+        column3: ["old", "big", "small", "strong", "careful", "fast"],
+      },
+      images: ["old", "big", "small", "strong", "careful", "fast"],
     },
-    images: ["family"]
+    {
+      id: "task4",
+      title: "A beaver can swim",
+      type: "Look and say",
+      dialogue: [
+        { speaker: "A", line: "Can a beaver swim?" },
+        { speaker: "B", line: "Yes. Can a beaver carry?" },
+      ],
+      table: {
+        column1: "can",
+        column2: "a beaver",
+        column3: ["repair", "swim", "collect", "carry", "build"],
+      },
+      images: ["repair", "swim", "collect", "carry", "build"],
+    },
+    {
+      id: "task6",
+      title: "Who is she?",
+      type: "Look and say",
+      dialogue: [
+        { speaker: "A", line: "Who is she?" },
+        { speaker: "B", line: "A mother. She is a mother" },
+      ],
+      table: {
+        column1: ["He", "she"],
+        column2: "is",
+        verbs: ["a mother", "a father", "a sister", "a brother", "a granny"],
+      },
+      images: ["mother", "father", "sister", "brother", "granny", "grandpa"],
+    },
+    {
+      id: "task9",
+      title: "Is he small",
+      type: "Look and say",
+      dialogue: [
+        { speaker: "A", line: "Is he small?" },
+        { speaker: "B", line: "Yes. Is he old?" },
+      ],
+      table: {
+        column1: "Is",
+        column2: ["he", "she"],
+        column3: ["old", "big", "small", "strong", "careful", "fast"],
+      },
+      images: ["old", "big", "small", "strong", "careful", "fast"],
+    },
+  ],
+  games: {
+    nouns: "https://learningapps.org/display?v=p88pryvs226",
+    verbs: "https://learningapps.org/display?v=pugqzuvjc26",
+    adjectives: "https://learningapps.org/display?v=pzpe6s4wk26",
+    bodyParts: "https://learningapps.org/display?v=pyh438eva26",
   },
-  {
-    id: "can-beaver",
-    type: "can-verb",
-    dialogue: [
-      { speaker: "A", line: "Can a beaver swim?" },
-      { speaker: "B", line: "Yes, a beaver can swim." },
-    ],
-    table: {
-      modal: "Can",
-      subject: "beaver",
-      verbs: ["swim", "collect", "repair", "build", "carry"],
-    },
-    images: ["carry", "swim", "collect", "build", "repair"]
-  }
-],
-games: {nouns: "https://learningapps.org/display?v=p88pryvs226", verbs: "https://learningapps.org/display?v=pugqzuvjc26", adjectives: "https://learningapps.org/display?v=pzpe6s4wk26", bodyParts: "https://learningapps.org/display?v=pyh438eva26"}
 };

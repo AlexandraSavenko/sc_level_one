@@ -1,30 +1,34 @@
 import { useParams, NavLink, Outlet } from "react-router-dom";
 import { stories } from "../../stories";
-
+import css from "./SpeakingLayout.module.css";
 
 const SpeakingLayout = () => {
   const { storyId } = useParams();
-  const story = stories.find(s => s.id === storyId);
+  const story = stories.find((s) => s.id === storyId);
 
   return (
-    <div>
-      <h2>Speaking</h2>
+    <div className={css.speakingWrapper}>
+      <h2 className={css.heading}>Speaking</h2>
 
-      <nav>
-        {story.speaking.map(task => (
+      <nav className={css.nav}>
+        {story.speaking.map((task) => (
           <NavLink
             key={task.id}
             to={task.id}
-            style={{ marginRight: "1rem" }}
+            className={({ isActive }) =>
+              `${isActive ? css.active : ""} ${css.link}`
+            }
           >
-            {task.id}
+            {task.title}
           </NavLink>
         ))}
       </nav>
 
-      <Outlet />
+      <div className={css.content}>
+        <Outlet />
+      </div>
     </div>
   );
-}
+};
 
 export default SpeakingLayout;

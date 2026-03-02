@@ -23,7 +23,7 @@
 .speakBtn .icon{
     width: 18px;
     height: 18px;
-    fill: var(--black);
+    fill: var(--bg-sidebar);
 }
 
 .speakBtn:hover{
