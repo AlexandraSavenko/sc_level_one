@@ -5,6 +5,5 @@ import { story4 } from "./story4/data";
 import { story5 } from "./story5/data";
 import { story6 } from "./story6/data";
 import { story7 } from "./story7/data";
-import { story8 } from "./story8/data";
 
-export const stories = [story1, story2, story3, story4, story5, story6, story7, story8];
+export const stories = [story1, story2, story3, story4, story5, story6, story7];

@@ -122,7 +122,7 @@ export const story1 = {
   speaking: [
     {
       id: "task2",
-      title: "It is heavy",
+      title: "It is heavy.",
       type: "Look and say",
       dialogue: [
         { speaker: "A", line: "Is he strong?" },
@@ -137,7 +137,7 @@ export const story1 = {
     },
     {
       id: "task4",
-      title: "A beaver can swim",
+      title: "A beaver can swim.",
       type: "Look and say",
       dialogue: [
         { speaker: "A", line: "Can a beaver swim?" },
@@ -161,13 +161,13 @@ export const story1 = {
       table: {
         column1: ["He", "she"],
         column2: "is",
-        verbs: ["a mother", "a father", "a sister", "a brother", "a granny"],
+        verbs: ["a mother", "a father", "a sister", "a brother", "a granny", "a grandpa"],
       },
       images: ["mother", "father", "sister", "brother", "granny", "grandpa"],
     },
     {
       id: "task9",
-      title: "Is he small",
+      title: "Is he small?",
       type: "Look and say",
       dialogue: [
         { speaker: "A", line: "Is he small?" },
