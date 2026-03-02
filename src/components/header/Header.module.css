@@ -21,25 +21,27 @@
   height: 42px;
 
   border-radius: 12px;
-
-  color: var(--text-primary);
+  background-color: var(--text-secondary);
   text-decoration: none;
+  opacity: 0.85;
 
-  transition: background 0.2s ease, transform 0.15s ease;
+  transition: background 0.2s ease, transform 0.15s ease, opacity 0.2s ease;;
 }
 
 .link:hover {
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(255, 255, 255, 0.08);
   transform: translateY(-2px);
+  opacity: 1;
 }
 
 .activeLink {
   background: var(--accent);
-  color: white;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.35);
+  opacity: 1;
 }
 
 .icon {
   width: 20px;
   height: 20px;
-  fill: currentColor;
+  fill: var(--text-on-dark);
 }
