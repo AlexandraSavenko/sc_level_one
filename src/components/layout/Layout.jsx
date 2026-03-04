@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)
   return (
     <div className={css.app}>
-      <Header openSidebar={setIsSidebarOpen} />
+      <Header setIsOpen={setIsSidebarOpen} />
       <div className={css.layout}>
         <SideBar isOpen={isSidebarOpen} setIsOpen={setIsSidebarOpen} />
         <main className={`${css.content} container`}>{children}</main>

@@ -1,12 +1,12 @@
 import css from "./Header.module.css";
 import { NavLink } from "react-router-dom";
 
-const Header = ({ openSidebar }) => {
+const Header = ({ setIsOpen }) => {
   return (
     <div className={`${css.header}`}>
       <button
         className={css.menuBtn}
-        onClick={() => openSidebar((prev) => !prev)}
+        onClick={() => setIsOpen((prev) => !prev)}
       >
         ☰
       </button>
