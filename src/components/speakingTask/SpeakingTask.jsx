@@ -48,6 +48,13 @@ const SpeakingTask = () => {
         ))}
       </div>
       <div className={css.imageBox}>
+        {task.mainImage && (
+          <img
+            className={css.image}
+            src={`/task_images/${task.mainImage.url}.png`}
+            alt={task.mainImage.label}
+          />
+        )}
         <ImageBox images={task.images} />
       </div>
       {/* render table based on type here */}

@@ -1,7 +1,8 @@
 export const story3 = {
   id: "story3",
   title: "Bite and His Teeth",
-  file: "https://drive.google.com/file/d/1ToPN-xdRjinRk9EORK884oLiSmp7pPlV/view?usp=sharing",
+  video: "https://youtu.be/N1QUq2HjWoo",
+  file: "https://drive.google.com/file/d/1YRrPMLt3_Soq0TJ58Sm_dWE3KJowNIA9/view?usp=sharing",
   pages: [
     {
       id: 1,

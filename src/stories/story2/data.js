@@ -1,7 +1,8 @@
 export const story2 = {
   id: "story2",
   title: "Ben the Beaver and the River Friends",
-  file: "https://drive.google.com/file/d/1V4B0YeNjv6wH9ky3ZnTQnQZ8JVyzTmHp/view?usp=sharing",
+  video: "https://www.youtube.com/embed/_JcvnXa2Gtzw",
+  file: "https://drive.google.com/file/d/1qBOnENlQPyphkgj3p9LxcZfMDGNg--lh/view?usp=sharing",
   pages: [
     {
       id: 1,

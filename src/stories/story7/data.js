@@ -1,41 +1,43 @@
 export const story7 = {
   id: "story7",
   title: "Peter the Pencil school week",
+  video: "https://youtu.be/imCb4VFdPGY",
+  file: "https://drive.google.com/file/d/1FDWJdlySFSF1ibJWmmJamaX4hlr5Ak-p/view?usp=sharing",
   pages: [
     {
       id: 1,
       altText: "pencil box",
-      text: "Hello, I am Peter the Pencil. Look at me! I am new! I am long and grey. My nose is sharp. I have a pink eraser hat. I live in a blue pencil box. There I have many friends. Can you see Penny the pen? It has blue ink inside. That is Ruth the ruler. It is very long. And this is Shirley the sharpener. It helps me stay sharp.",
+      text: "Hello, I am Peter the Pencil. Look at me! I am new! I am long and grey. My nose is sharp. I live in a blue pencil box. There, I have many friends. Can you see Penny the pen? It is blue. That is Roo the ruler. It is long and yellow. And this is Shirley the sharpener. It helps me stay sharp.",
     },
     {
       id: 2,
       altText: "boy writes",
-      text: "On Monday, I wake up early. The school starts. My master puts me on his desk. I can see a big, wide notebook. It lies on the desk too. My master takes me and writes letters in the notebook. I like to write. The letters are beautiful. Then he puts me back into the pencil box again.",
+      text: "On Monday, I wake up early. The school starts. A boy puts me on his desk. I can see a big, wide notebook. It lies on the desk too. He takes me and writes letters in the notebook. I like to write. The letters are beautiful. Then he puts me back into the pencil box again.",
     },
     {
       id: 3,
       altText: "pencil and sharpener",
-      text: "On Tuesday, my master puts me on the desk again. He writes letters but they are not beautiful. My nose is not sharp. I can see Shirley the sharpener. “Hello, Peter!” says Shirley “How are you?” “I am not sharp” I say sadly. “Don’t be sad!” says the sharpener. “I will help you!” When my nose is sharp again, my master erases old letters with my pink hat and writes new letters.",
+      text: "On Tuesday, the boy puts me on the desk again. He writes letters but they are not beautiful. My nose is not sharp. I can see Shirley the sharpener. “Hello, Peter!” says Shirley “How are you?” “I am not sharp” I say sadly. “Don’t be sad!” says the sharpener. “I will help you!” When my nose is sharp again, the boy erases old letters with my pink hat and writes new letters.",
     },
     {
       id: 4,
       altText: "pencil and ruler",
-      text: "On Wednesday morning, I am on the desk again. I can see a maths book. There are numbers and shapes in it. I can see a triangle. Can I draw a triangle? I can, but I need help. I can see my friend Ruth the ruler. “Hello, Peter the pencil!” says Ruth “Are you happy to draw a triangle?” “Yes, I am” I say. We work together. What a nice triangle we draw. I write numbers. Then Ruth the ruler and I go back to our home – the pencil box.",
+      text: "On Wednesday morning, I am on the desk again. I can see a maths book. There are numbers and shapes in it. I can see a triangle. Can I draw a triangle? I can, but I need help. I can see my friend Roo the ruler. “Hello, Peter the pencil!” says Roo “Are you happy to draw a triangle?” “Yes, I am” I say. We work together. What a nice triangle we draw. I write numbers. Then Ruth the ruler and I go back home – to the pencil box.",
     },
     {
       id: 5,
       altText: "picture of a house",
-      text: "On Thursday, I can see some clouds in the sky. My master turns on the lamp. It shines brightly. I can see a white paper. It is so big. I draw a square. Ruth the ruler helps me again. Then we draw a triangle. We draw a small square inside the big square. I can see what it is. Can you? It is a house. I draw a round sun in the sky. Outside it is raining but my sun is shining. I can see my brothers and sisters. They live in a big bright box. There are blue, red, yellow, green, black and brown pencil. They help me with my picture. The house is brown now. The triangle is red. It’s a roof. The sky is blue. The sun is yellow. The grass around the house is green.",
+      text: "On Thursday, I can see some clouds in the sky. The boy turns on the lamp. It shines brightly. I can see a white paper. It is so big. I draw a square. Roo the ruler helps me again. Then we draw a triangle. We draw a small square inside the big square. I can see what it is. Can you? It is a house. I draw a round sun in the sky. Outside, it is raining but my sun is shining. I can see my brothers and sisters. They live in a big bright box. There are blue, red, yellow, green, black and brown pencil. They help me with my picture. The house is brown now. The triangle is red. It’s a roof. The sky is blue. The sun is yellow. The grass around the house is green.",
     },
     {
       id: 6,
       altText: "pencil and ruler under a desk",
-      text: "On Friday, I fall under the desk! It is dark there. I can’t see my friends and I can’t see my master. I am nervous and I am sad. What can I do? I lie under the desk and wait. Then I can hear Ruth the ruler. “Peter the pencil!” she says “Where are you?” She is under the desk too. I can’t see her but I can hear her.“I am here” I say. Ruth helps me and we are outside again. We go back to our home – the pencil box. I am happy to see all my friends. “Hello, Penny the pen!” I say “Hello, Shirley the sharpener!” I am so happy.",
+      text: "On Friday, I fall under the desk! It is dark there. I can’t see my friends and I can’t see my boy. I am nervous and I am sad. What can I do? I lie under the desk and wait. Then I can hear Roo the ruler. “Peter the pencil!” she says “Where are you?” She is under the desk too. I can’t see her, but I can hear her. “I am here” I say. Roo helps me and we are outside again. We go back to our home – the pencil box. I am happy to see all my friends. “Hello, Penny the pen!” I say “Hello, Shirley the sharpener!” I am so happy.",
     },
     {
       id: 7,
       altText: "boy outside",
-      text: "On Saturday, there is no school.I sleep in the pencil box. I dream about writing stories. I dream about drawing pictures. I dream about triangles and squares. On Sunday I wake up and I am outside. But where is the desk? I can see trees and bushes. They are yellow and red. The leaves are falling. I can see clouds in the sky. There is a big white paper and I draw the trees. I draw the bushes. My brothers and sisters are here too so the picture is bright. It is beautiful. Shirley the sharpener helps me. It makes my nose sharp. Then we go back to the pencil box. “Tomorrow is Monday again,” I smile. “And I am ready for a new week!”",
+      text: "On Saturday, there is no school. I sleep in the pencil box. I dream about writing stories. I dream about drawing pictures. I dream about triangles and squares. On Sunday I wake up and I am outside. But where is the desk? I can see trees and bushes. They are yellow and red. The leaves are falling. I can see clouds in the sky. There is a big white paper and I draw the trees. I draw the bushes. My brothers and sisters are here too, so the picture is bright. It is beautiful. Shirley the sharpener helps me. It makes my nose sharp. Then we go back to the pencil box. “Tomorrow is Monday again,” I smile. “And I am ready for a new week!”",
     },
   ],
   vocabulary: {

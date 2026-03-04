@@ -1,7 +1,8 @@
 export const story6 = {
   id: "story6",
   title: "The Easter Bunny in the English Garden",
-  file: "https://drive.google.com/file/d/1bqas-3my7VUkqFQaHBwtxNn_t17fs53A/view?usp=sharing",
+  video: "https://youtu.be/HsS9VROAb4E",
+  file: "https://drive.google.com/file/d/1U8t-c2v99bOsRCItMOhSzHsAszBKPmtg/view?usp=sharing",
   pages: [
     {
       id: 1,
@@ -147,26 +148,47 @@ export const story6 = {
   speaking: [
     {
       id: "task2",
-      title: "I see an egg busket.",
+      title: "I see an egg basket.",
       type: "Look and say.",
       dialogue: [
-        { speaker: "A", line: "I see an egg busket." },
+        { speaker: "A", line: "I see an egg basket." },
         { speaker: "B", line: "How many eggs are there?" },
       ],
-      table: [{
-        column1: "I see",
-        column2: ["a", "an"],
-        column3: ["egg", "carrot", "flower", "apple", "walnut", "cabbage", "acorn", "strawberry"],
-        column4: "basket",
-      }, {
-        column1: "How many",
-        column2: ["eggs", "carrots", "flowers", "apples", "walnuts", "cabbages", "acorns", "strawberries"],
-        column4: "are there?",
-      }],
+      table: [
+        {
+          column1: "I see",
+          column2: ["a", "an"],
+          column3: [
+            "egg",
+            "carrot",
+            "flower",
+            "apple",
+            "walnut",
+            "cabbage",
+            "acorn",
+            "strawberry",
+          ],
+          column4: "basket",
+        },
+        {
+          column1: "How many",
+          column2: [
+            "eggs",
+            "carrots",
+            "flowers",
+            "apples",
+            "walnuts",
+            "cabbages",
+            "acorns",
+            "strawberries",
+          ],
+          column4: "are there?",
+        },
+      ],
       images: [
         { url: "eggB", label: "egg basket" },
         { url: "carrotB", label: "carrot basket" },
-        { url: "flowrB", label: "flower basket" },
+        { url: "flowerB", label: "flower basket" },
         { url: "appleB", label: "apple basket" },
         { url: "walnutB", label: "walnut basket" },
         { url: "cabbageB", label: "cabbage basket" },
@@ -176,25 +198,39 @@ export const story6 = {
     },
     {
       id: "task4",
+      title: "There is something behind the egg.",
       type: "Look and say",
       dialogue: [
         { speaker: "A", line: "There is something behind the egg." },
         { speaker: "B", line: "A bunny." },
       ],
-      table: {
-        column1: "There is",
-        column2: "something",
-        column3: ["behind", "in", "on"],
-        column4: ["the egg", "the branch", "the bush", "the basket", "the tree", "the river", "the nest", "the dam"],
-      },
-      images: [{ url: "behindEgg", label: "behind the egg" },
-        { url: "carrotB", label: "carrot basket" },
-        { url: "flowrB", label: "flower basket" },
-        { url: "appleB", label: "apple basket" },
-        { url: "walnutB", label: "walnut basket" },
-        { url: "cabbageB", label: "cabbage basket" },
-        { url: "acornB", label: "acorn basket" },
-        { url: "strawberryB", label: "strawberry basket" },],
+      table: [
+        {
+          column1: "There is",
+          column2: "something",
+          column3: ["behind", "in", "on"],
+          column4: [
+            "the egg",
+            "the branch",
+            "the bush",
+            "the basket",
+            "the tree",
+            "the river",
+            "the nest",
+            "the dam",
+          ],
+        },
+      ],
+      images: [
+        { url: "behindEgg", label: "behind the egg" },
+        { url: "onBranch", label: "on the branch" },
+        { url: "onDam", label: "on the dam" },
+        { url: "inBasket", label: "in the basket" },
+        { url: "behindBush", label: "behind the bush" },
+        { url: "inNest", label: "in the nest" },
+        { url: "inTree", label: "in the tree" },
+        { url: "inRiver", label: "in the river" },
+      ],
     },
     {
       id: "task6",
@@ -204,14 +240,17 @@ export const story6 = {
         { speaker: "A", line: "I'm a beaver. Help me build!" },
         { speaker: "B", line: "I will" },
       ],
-      table: [{
-        column1: "I am",
-        column2: ["a", "an"],
-        column3: ["beaver", "squirrel", "magpie"],
-      }, {
-        column1: "Help me",
-        column2: ["build", "catch", "collect", "carry"],
-      }],
+      table: [
+        {
+          column1: "I am",
+          column2: ["a", "an"],
+          column3: ["beaver", "squirrel", "magpie"],
+        },
+        {
+          column1: "Help me",
+          column2: ["build", "catch", "collect", "carry"],
+        },
+      ],
       images: [
         { url: "beaverBuild", label: "build" },
         { url: "beaverCatch", label: "catch" },
@@ -230,13 +269,26 @@ export const story6 = {
         { speaker: "A", line: "Will a cow eat a tree?" },
         { speaker: "B", line: "No. Will a cow eat a carrot?" },
       ],
-      table: [{
-        column1: "Will",
-        column2: "a cow",
-        collumn3: "eat",
-        column3: ["a carrot", "an egg", "a mushroom", "grass", "a bush", "cabbage", "porridge", "a nest", "strawberries", "a tree"],
-      column4: "?"
-      }],
+      table: [
+        {
+          column1: "Will",
+          column2: "a cow",
+          collumn3: "eat",
+          column3: [
+            "a carrot",
+            "an egg",
+            "a mushroom",
+            "grass",
+            "a bush",
+            "cabbage",
+            "porridge",
+            "a nest",
+            "strawberries",
+            "a tree",
+          ],
+          column4: "?",
+        },
+      ],
       mainImage: { url: "cow", label: "a cow" },
       images: [
         { url: "carrot", label: "a carrot" },
@@ -259,13 +311,23 @@ export const story6 = {
         { speaker: "A", line: "Will a squirrel eat mushrooms?" },
         { speaker: "B", line: "Yes. Will a squirrel eat apricots?" },
       ],
-      table: [{
-        column1: "Will",
-        column2: "a squirrel",
-        collumn3: "eat",
-        column3: ["strawberries", "acorns", "pumpkins", "trees", "carrots", "walnuts", "apricots"],
-      column4: "?"
-      }],
+      table: [
+        {
+          column1: "Will",
+          column2: "a squirrel",
+          collumn3: "eat",
+          column3: [
+            "strawberries",
+            "acorns",
+            "pumpkins",
+            "trees",
+            "carrots",
+            "walnuts",
+            "apricots",
+          ],
+          column4: "?",
+        },
+      ],
       mainImage: { url: "squirrel", label: "a squirrel" },
       images: [
         { url: "strawberries", label: "strawberries" },
@@ -286,15 +348,26 @@ export const story6 = {
         { speaker: "B", line: "Are there any apricots there?" },
         { speaker: "A", line: "Yes" },
       ],
-      table: [{
-        column1: "Are",
-        column2: "there",
-        collumn3: "any",
-        column3: ["walnuts", "apples", "cherries", "apricots", "strawberries", "carrots", "cabbages", "pumpkins"],
-      column4: "there?"
-      }],
-      images: [        { url: "walnutTree", label: "a walnutTree" },
-
+      table: [
+        {
+          column1: "Are",
+          column2: "there",
+          collumn3: "any",
+          column3: [
+            "walnuts",
+            "apples",
+            "cherries",
+            "apricots",
+            "strawberries",
+            "carrots",
+            "cabbages",
+            "pumpkins",
+          ],
+          column4: "there?",
+        },
+      ],
+      images: [
+        { url: "walnutTree", label: "a walnutTree" },
         { url: "appleTree", label: "an apple tree" },
         { url: "cherryTree", label: "a cherryTree" },
         { url: "apricotTree", label: "an apricot tree" },
@@ -302,9 +375,8 @@ export const story6 = {
         { url: "carrotBed", label: "a carrotBed" },
         { url: "cabbageBed", label: "a cabbage bed" },
         { url: "pumpkinField", label: "a pumpkin field" },
-        
       ],
     },
   ],
-  games: {nouns: "https://learningapps.org/watch?v=pjjs1d7g226"}
+  games: { nouns: "https://learningapps.org/watch?v=pjjs1d7g226" },
 };

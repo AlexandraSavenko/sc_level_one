@@ -1,7 +1,8 @@
 export const story5 = {
   id: "story5",
   title: "Maggie the magpie builds a nest",
-  file: "https://drive.google.com/file/d/1cBlyLt98vYEeGLaxvwsYefM7kObaZSR5/view?usp=sharing",
+  video: "https://youtu.be/A8qaYDsyPkU",
+  file: "https://drive.google.com/file/d/10LEoI2qPxTf9CHtFsd9n-s1gtdZo2fNg/view?usp=sharing",
   pages: [
     {
       id: 1,
@@ -200,9 +201,9 @@ export const story5 = {
         { url: "pigR", label: "a pig" },
         { url: "wolfR", label: "a wolf" },
         { url: "cowR", label: "a cow" },
-        { url: "beaversR", label: "a beaver" },
+        { url: "beaversR", label: "beavers" },
         { url: "crowR", label: "a crow" },
-        { url: "magpiesR", label: "a magpie" },
+        { url: "magpiesR", label: "magpies" },
       ],
     },
     {
@@ -226,11 +227,11 @@ export const story5 = {
         { url: "branches", label: "branches" },
         { url: "nest", label: "a nest" },
         { url: "nests", label: "nests" },
-        { url: "fox", label: "a fox" },
+        { url: "oneFox", label: "a fox" },
         { url: "foxes", label: "foxes" },
-        { url: "house", label: "a house" },
+        { url: "oneHouse", label: "a house" },
         { url: "houses", label: "houses" },
-        { url: "wolf", label: "a wolf" },
+        { url: "oneWolf", label: "a wolf" },
         { url: "wolves", label: "wolves" },
       ],
     },

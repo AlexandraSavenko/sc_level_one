@@ -1,7 +1,8 @@
 export const story1 = {
   id: "story1",
   title: "The Little Beaver and his Family",
-  file: "https://drive.google.com/file/d/1OxhrruWq1vpPTYQDRSRg5oZ95KsoLYrn/view?usp=sharing",
+  video: "https://www.youtube.com/embed/_fg31nQi3wk",
+  file: "https://drive.google.com/file/d/1CxLEtcGe_MSkLxRsEwnKfICqi-EYPPpd/view?usp=sharing",
   pages: [
     {
       id: 1,

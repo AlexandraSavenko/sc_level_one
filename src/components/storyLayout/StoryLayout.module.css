@@ -1,0 +1,33 @@
+.titleBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.downloadLink {
+    background: var(--bg-surface);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.downloadLink:hover {
+      background: var(--accent);
+  color: var(--text-on-dark);
+  border-color: var(--accent);
+}
+
+.icon{  width: 20px;
+  height: 20px;
+  fill: var(--text-primary);
+transition: all 0.2s ease;}
+
+  .downloadLink:hover .icon{
+    fill: var(--text-on-dark)
+  }

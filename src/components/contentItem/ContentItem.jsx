@@ -8,6 +8,9 @@ const ContentItem = ({storyNumber}) => {
       <NavLink className={({isActive}) => `${css.link} ${isActive && css.active}`} to={`story${storyNumber}/story`}>{`Story ${storyNumber}`}</NavLink>
       </li>
       <li>
+      <NavLink className={({isActive}) => `${css.link} ${isActive && css.active}`} to={`story${storyNumber}/video`}>Video</NavLink>
+      </li>
+      <li>
       <NavLink className={({isActive}) => `${css.link} ${isActive && css.active}`} to={`story${storyNumber}/vocabulary`}>Vocabulary</NavLink>
       </li>
       <li>
