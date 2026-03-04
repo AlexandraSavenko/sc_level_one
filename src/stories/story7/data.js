@@ -134,4 +134,70 @@ export const story7 = {
       ],
     },
   },
+  speaking: [
+    {
+      id: "task2",
+      title: "What is he doing?",
+      type: "Look and say.",
+      dialogue: [
+        { speaker: "A", line: "What is he doing?" },
+        { speaker: "B", line: "He is swimming." },
+      ],
+      table: [{
+        column1: "He",
+        column2: "is",
+        column3: ["swimming", "building", "collecting", "eating", "cutting", "sleeping"],
+      }],
+      images: [{ url: "boySwim", label: "swimming" },
+        { url: "boyBuild", label: "building" },
+        { url: "boyCollect", label: "collecting" },
+        { url: "boyEat", label: "eating" },
+        { url: "boyCut", label: "cutting" },
+        { url: "boySleep", label: "sleeping" },
+        ],
+    },
+  {
+      id: "task4",
+      title: "This desk is bigger.",
+      type: "Look and say.",
+      dialogue: [
+        { speaker: "A", line: "This desk is bigger." },
+        { speaker: "B", line: "Yes. This paper is smaller." },
+      ],
+      table: [{
+        column1: "This",
+        column2: ["desk", "notebook", "paper", "sharpener", "duck", "cow", "pumpkin", "apple", "tree", "bush"
+        ],
+        column3: "is",
+        column4: ["long", "short", "big", "small"],
+        column5: "er."
+      }],
+      images: [{ url: "deskNotebook", label: "a desk and a notebook" },
+        { url: "paperSharpener", label: "a paper and a sharpener" },
+        { url: "duckCow", label: "a duck and a cow" },
+        { url: "pumpkinApple", label: "a pumpkin and a apple" },
+        { url: "treeBush", label: "a tree and a bush" },
+        ],
+    },{
+      id: "task5",
+      title: "Pencil is longer",
+      type: "Look and say.",
+      dialogue: [
+        { speaker: "A", line: "The pencil is longer." },
+        { speaker: "B", line: "No. The ruler is shorter." },
+      ],
+      table: [{
+        column1: ["The pencil", "The ruler", "the pen", "The pencil box", "The fox tail", "The beaver tail", "The leg", "The river", "The branch", "The carrot"
+        ],
+        column2: "is",
+        column3: ["long", "short", "big", "small"],
+        column4: "er."
+      }],
+      images: [{ url: "pencilRuler", label: "a pencil and a ruler" },
+        { url: "penPencilbox", label: "a pen and a pencil box" },
+        { url: "foxBeaverTail", label: "a fox tail and a beaver tail" },
+        { url: "legRiver", label: "a leg and a river" },
+        { url: "branchCarrot", label: "a branch and a carrot" },
+        ],
+    },]
 };
