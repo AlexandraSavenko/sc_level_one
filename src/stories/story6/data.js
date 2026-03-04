@@ -175,7 +175,7 @@ export const story6 = {
       ],
     },
     {
-      id: "task2",
+      id: "task4",
       type: "Look and say",
       dialogue: [
         { speaker: "A", line: "There is something behind the egg." },
@@ -195,6 +195,115 @@ export const story6 = {
         { url: "cabbageB", label: "cabbage basket" },
         { url: "acornB", label: "acorn basket" },
         { url: "strawberryB", label: "strawberry basket" },],
+    },
+    {
+      id: "task6",
+      title: "Help me!",
+      type: "Look and say.",
+      dialogue: [
+        { speaker: "A", line: "I'm a beaver. Help me build!" },
+        { speaker: "B", line: "I will" },
+      ],
+      table: [{
+        column1: "I am",
+        column2: ["a", "an"],
+        column3: ["beaver", "squirrel", "magpie"],
+      }, {
+        column1: "Help me",
+        column2: ["build", "catch", "collect", "carry"],
+      }],
+      images: [
+        { url: "beaverBuild", label: "build" },
+        { url: "beaverCatch", label: "catch" },
+        { url: "beaverCollect", label: "collect" },
+        { url: "magpieBuild", label: "build" },
+        { url: "squirrelCatch", label: "catch" },
+        { url: "squirrelCollect", label: "collect" },
+        { url: "squirrelCarry", label: "carry" },
+      ],
+    },
+    {
+      id: "task7",
+      title: "Will a cow eat a tree?",
+      type: "Look and say",
+      dialogue: [
+        { speaker: "A", line: "Will a cow eat a tree?" },
+        { speaker: "B", line: "No. Will a cow eat a carrot?" },
+      ],
+      table: [{
+        column1: "Will",
+        column2: "a cow",
+        collumn3: "eat",
+        column3: ["a carrot", "an egg", "a mushroom", "grass", "a bush", "cabbage", "porridge", "a nest", "strawberries", "a tree"],
+      column4: "?"
+      }],
+      mainImage: { url: "cow", label: "a cow" },
+      images: [
+        { url: "carrot", label: "a carrot" },
+        { url: "egg", label: "an egg" },
+        { url: "mushroom", label: "a mushroom" },
+        { url: "grass", label: "grass" },
+        { url: "bush", label: "a bush" },
+        { url: "cabbage", label: "a cabbage" },
+        { url: "porridge", label: "porridge" },
+        { url: "tree", label: "a tree" },
+        { url: "nest", label: "a nest" },
+        { url: "strawberry", label: "a strawberry" },
+      ],
+    },
+    {
+      id: "task8",
+      title: "Will a squirrel eat a mushroom?",
+      type: "Look and say",
+      dialogue: [
+        { speaker: "A", line: "Will a squirrel eat mushrooms?" },
+        { speaker: "B", line: "Yes. Will a squirrel eat apricots?" },
+      ],
+      table: [{
+        column1: "Will",
+        column2: "a squirrel",
+        collumn3: "eat",
+        column3: ["strawberries", "acorns", "pumpkins", "trees", "carrots", "walnuts", "apricots"],
+      column4: "?"
+      }],
+      mainImage: { url: "squirrel", label: "a squirrel" },
+      images: [
+        { url: "strawberries", label: "strawberries" },
+        { url: "acorns", label: "acorns" },
+        { url: "pumpkins", label: "pumpkins" },
+        { url: "trees", label: "trees" },
+        { url: "carrots", label: "carrots" },
+        { url: "walnuts", label: "walnuts" },
+        { url: "apricots", label: "apricots" },
+      ],
+    },
+    {
+      id: "task10",
+      title: "Are there any apricots there?",
+      type: "Look and say",
+      dialogue: [
+        { speaker: "A", line: "I see an apricot tree" },
+        { speaker: "B", line: "Are there any apricots there?" },
+        { speaker: "A", line: "Yes" },
+      ],
+      table: [{
+        column1: "Are",
+        column2: "there",
+        collumn3: "any",
+        column3: ["walnuts", "apples", "cherries", "apricots", "strawberries", "carrots", "cabbages", "pumpkins"],
+      column4: "there?"
+      }],
+      images: [        { url: "walnutTree", label: "a walnutTree" },
+
+        { url: "appleTree", label: "an apple tree" },
+        { url: "cherryTree", label: "a cherryTree" },
+        { url: "apricotTree", label: "an apricot tree" },
+        { url: "strawberryBed", label: "a strawberry bed" },
+        { url: "carrotBed", label: "a carrotBed" },
+        { url: "cabbageBed", label: "a cabbage bed" },
+        { url: "pumpkinField", label: "a pumpkin field" },
+        
+      ],
     },
   ],
   games: {nouns: "https://learningapps.org/watch?v=pjjs1d7g226"}
