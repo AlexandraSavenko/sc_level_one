@@ -14,12 +14,13 @@ const ImageBox = ({ images }) => {
       </div>
       <div className={isGallery ? css.imageBoxGallery : css.imageBoxGrid}>
        {images.map((el) => (
-        <div key={el} className={css.card}>
-          <img className={css.image} src={`/task_images/${el}.png`} alt={el} />
-          <div className={css.textBox}>
-            <SpeakButton text={el} />
-            <p>{el}</p>
-          </div>
+        <div key={el.url} className={css.card}>
+          <img className={css.image} src={`/task_images/${el.url}.png`} alt={el} />
+          {el.label && <div className={css.textBox}>
+            <SpeakButton text={el.label} />
+            <p>{el.label}</p>
+          </div>}
+          
         </div>
       ))} 
       </div>
