@@ -15,7 +15,7 @@ const SpeakingTask = () => {
     <div>
       <div className={css.dialogueBox}>
         {task.dialogue.map((line, i) => (
-          <div className={css.speakerLine}>
+          <div key={i} className={css.speakerLine}>
             <SpeakButton text={line.line} />
             <p key={i}>
               <strong>{line.speaker}:</strong> {line.line}
@@ -24,27 +24,31 @@ const SpeakingTask = () => {
         ))}
       </div>
 
-      <div className={css.table}>
-        {Object.entries(task.table).map((el, index) => (
-          <div key={index} className={css.column}>
-            {Array.isArray(el[1]) ? (
-              el[1].map((word, i) => (
-                <div className={css.tableLine}>
-                  {" "}
-                  <SpeakButton text={word} /> <p key={i}>{word}</p>
-                </div>
-              ))
-            ) : (
-              <div className={css.tableLine}>
-                <SpeakButton text={el[1]} />
-                <p>{el[1]}</p>
+      <div className={css.tableWrap}>
+        {task.table.map((row, rowIndex) => (
+          <div className={css.table} key={rowIndex}>
+            {Object.entries(row).map((el, index) => (
+              <div key={index} className={css.column}>
+                {Array.isArray(el[1]) ? (
+                  el[1].map((word, i) => (
+                    <div key={i} className={css.tableLine}>
+                      {" "}
+                      <SpeakButton text={word} /> <p key={i}>{word}</p>
+                    </div>
+                  ))
+                ) : (
+                  <div className={css.tableLine}>
+                    <SpeakButton text={el[1]} />
+                    <p>{el[1]}</p>
+                  </div>
+                )}
               </div>
-            )}
+            ))}
           </div>
         ))}
       </div>
       <div className={css.imageBox}>
-          <ImageBox images={task.images} />
+        <ImageBox images={task.images} />
       </div>
       {/* render table based on type here */}
     </div>

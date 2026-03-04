@@ -147,17 +147,17 @@ export const story2 = {
     {
       id: "task2",
       title: "Who is this?",
-      type: "dialogue",
+      type: "Look and say.",
       dialogue: [
         { speaker: "A", line: "Who is this?" },
         { speaker: "B", line: "This is a fox." },
       ],
-      table: {
+      table: [{
         column1: "This",
         column2: "is",
         column3: ["a", "an"],
         column4: ["fox", "otter", "duck", "fish"],
-      },
+      }],
       images: [{ url: "fox", label: "fox" },
         { url: "otter", label: "otter" },
         { url: "duck", label: "duck" },
@@ -167,16 +167,16 @@ export const story2 = {
     {
       id: "task4",
       title: "Is he nervous?",
-      type: "dialogue",
+      type: "Look and say.",
       dialogue: [
         { speaker: "A", line: "Is he nervous?" },
         { speaker: "B", line: "No. Is he calm?" },
       ],
-      table: {
+      table: [{
         column1: "Is",
         column2: "he",
         column3: ["calm", "nervous"],
-      },
+      }],
       images: [
         { url: "calm1"},
         { url: "nervous1"},
@@ -196,17 +196,17 @@ export const story2 = {
     {
       id: "task6",
       title: "It has sharp teeth.",
-      type: "dialogue",
+      type: "Look and say.",
       dialogue: [
         { speaker: "A", line: "It has sharp teeth." },
         { speaker: "B", line: "A beaver. It has big ears." },
       ],
-      table: {
+      table: [{
         column1: "It",
         column2: "has",
         column3: ["big", "small", "sharp", "wide", "flat", "long"],
         column4: ["teeth", "eyes", "nose", "ears", "tail", "head"],
-      },
+      }],
       images: [{ url: "beaver", label: "beaver" },
         { url: "fox", label: "fox" },
         { url: "otter", label: "otter" }],
@@ -214,17 +214,17 @@ export const story2 = {
     {
       id: "task8",
       title: "It has sharp teeth.",
-      type: "dialogue",
+      type: "Look and say.",
       dialogue: [
         { speaker: "A", line: "What color is the house?" },
         { speaker: "B", line: "It is yellow and grey." },
       ],
-      table: {
+      table: [{
         column1: "What color",
         column2: "is",
         column3: "the",
         column4: ["house", "tree", "river", "lodge", "fox", "otter", "duck", "fush"],
-      },
+      }],
       images: [
         { url: "beaver", label: "beaver" },
         { url: "fox", label: "fox" },
@@ -234,17 +234,17 @@ export const story2 = {
     {
       id: "task10",
       title: "Who has red tail?",
-      type: "dialogue",
+      type: "Look and say.",
       dialogue: [
         { speaker: "A", line: "Who has red tail?" },
         { speaker: "B", line: "A fox has red tail" },
       ],
-      table: {
+      table: [{
         column1: ["Who", "A fox", "A beaver", "An otter", "A duck"],
         column2: "has",
         column3: ["red", "brown", "grey", "white", "yellow"],
         column4: ["teeth", "eyes", "nose", "ears", "tail", "head", "beak"],
-      },
+      }],
       images: [
         { url: "beaver-head", label: "beaver head" },
         { url: "fox-head", label: "fox head" },

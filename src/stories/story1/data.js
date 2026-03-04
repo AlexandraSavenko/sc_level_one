@@ -128,11 +128,11 @@ export const story1 = {
         { speaker: "A", line: "Is he strong?" },
         { speaker: "B", line: "Yes. Is it heavy?" },
       ],
-      table: {
+      table: [{
         column1: "Is",
         column2: ["he", "she", "it"],
         column3: ["old", "big", "small", "strong", "careful", "fast"],
-      },
+      }],
       images: [
         { url: "old", label: "old" },
         { url: "big", label: "big" },
@@ -150,11 +150,11 @@ export const story1 = {
         { speaker: "A", line: "Can a beaver swim?" },
         { speaker: "B", line: "Yes. Can a beaver carry?" },
       ],
-      table: {
+      table: [{
         column1: "can",
         column2: "a beaver",
         column3: ["repair", "swim", "collect", "carry", "build"],
-      },
+      }],
       images: [
         { url: "repair", label: "repair" },
         { url: "swim", label: "swim" },
@@ -171,7 +171,7 @@ export const story1 = {
         { speaker: "A", line: "Who is she?" },
         { speaker: "B", line: "A mother. She is a mother" },
       ],
-      table: {
+      table: [{
         column1: ["He", "she"],
         column2: "is",
         verbs: [
@@ -182,7 +182,7 @@ export const story1 = {
           "a granny",
           "a grandpa",
         ],
-      },
+      }],
       images: [
         { url: "mother", label: "mother" },
         { url: "father", label: "father" },
@@ -200,11 +200,11 @@ export const story1 = {
         { speaker: "A", line: "Is he small?" },
         { speaker: "B", line: "Yes. Is he old?" },
       ],
-      table: {
+      table: [{
         column1: "Is",
         column2: ["he", "she"],
         column3: ["old", "big", "small", "strong", "careful", "fast"],
-      },
+      }],
       images: [{ url: "old", label: "old" },
         { url: "big", label: "big" },
         { url: "small", label: "small" },

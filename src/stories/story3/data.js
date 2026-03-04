@@ -129,6 +129,117 @@ export const story3 = {
       ],
     },
   },
+  speaking: [
+    {
+      id: "task2",
+      title: "Is he young?",
+      type: "Look and say",
+      dialogue: [
+        { speaker: "A", line: "Is he young?" },
+        { speaker: "B", line: "Yes. Is he strong?" },
+      ],
+      table: [{
+        column1: "Is",
+        column2: ["he", "she"],
+        column3: ["old", "young"],
+      }, {column1: ["He", "She"],
+        column2: "has",
+        column3: ["one", "many"],
+        column4: ["tooth", "teeth"]
+      }],
+      images: [
+        { url: "old", label: "old" },
+        { url: "big", label: "big" },
+        { url: "small", label: "small" },
+        { url: "strong", label: "strong" },
+        { url: "careful", label: "careful" },
+        { url: "fast", label: "fast" },
+      ],
+    },
+    {
+      id: "task4",
+      title: "Who can fly?",
+      type: "Look and say",
+      dialogue: [
+        { speaker: "A", line: "Who can fly?" },
+        { speaker: "B", line: "A crow and a duck" },
+      ],
+      table: [{
+        column1: "Who",
+        column2: "can",
+        column3: ["fly", "swim", "build", "collect", "bite"],
+        column4: "?"
+      }],
+      images: [
+        { url: "otter", label: "an otter" },
+        { url: "crow", label: "a crow" },
+        { url: "puppy", label: "a puppy" },
+        { url: "fox", label: "a fox" },
+        { url: "wolf", label: "a wolf" },
+        { url: "beaver", label: "a beaver" },
+        { url: "boy", label: "a boy" },
+        { url: "cow", label: "a cow" },
+      ],
+
+    },
+    {
+      id: "task5",
+      title: "Can a crow swim?",
+      type: "Look and say",
+      dialogue: [
+        { speaker: "A", line: "Can a crow swim?" },
+        { speaker: "B", line: "No. Can an otter swim?" },
+      ],
+      table: [{
+        column1: "Can",
+        column2: ["a", "an"],
+        column3: ["duck", "fox", "boy", "otter", "wolf", "beaver", "cow", "puppy"],
+        column4: ["fly", "swim", "build", "collect", "bite"],
+        column5: "?"
+      }],
+      images: [
+        { url: "otter", label: "an otter" },
+        { url: "crow", label: "a crow" },
+        { url: "duck", label: "a duck" },
+        { url: "puppy", label: "a puppy" },
+        { url: "fox", label: "a fox" },
+        { url: "wolf", label: "a wolf" },
+        { url: "beaver", label: "a beaver" },
+        { url: "boy", label: "a boy" },
+        { url: "cow", label: "a cow" },
+      ],
+    },
+    {
+      id: "task7",
+      title: "Who can fly?",
+      type: "Look and say",
+      dialogue: [
+        { speaker: "A", line: "Who can fly?" },
+        { speaker: "B", line: "A crow. Is it black?" },
+         { speaker: "A", line: "Yes." },
+      ],
+      table: [{
+        column1: "Who",
+        column2: "can",
+        column3: ["fly", "swim", "build", "collect", "bite"],
+        column4: "?"
+      }, {
+        column1: "Is",
+        column2: ["it", "he"],
+        column3: ["white", "black", "green", "brown", "grey"],
+        column4: "?"
+      }],
+      images: [
+        { url: "crow", label: "a crow" },
+        { url: "duck", label: "a duck" },
+        { url: "puppy", label: "a puppy" },
+        { url: "wolf", label: "a wolf" },
+        { url: "beaver", label: "a beaver" },
+        { url: "boy", label: "a boy" },
+        { url: "cow", label: "a cow" },
+      ],
+    }
+  ],
   games: {
     nouns: "https://learningapps.org/watch?v=p7qx5m5pj26", sentences: "https://learningapps.org/watch?v=pbpnhffw326"
   }
