@@ -1,18 +1,27 @@
-import css from './Header.module.css'
-import { NavLink } from 'react-router-dom'
+import css from "./Header.module.css";
+import { NavLink } from "react-router-dom";
 
-const Header = () => {
+const Header = ({ openSidebar }) => {
   return (
-    <div className={`${css.header} container`}>
-      <NavLink  className={({ isActive }) =>
+    <div className={`${css.header}`}>
+      <button
+        className={css.menuBtn}
+        onClick={() => openSidebar((prev) => !prev)}
+      >
+        ☰
+      </button>
+      <NavLink
+        className={({ isActive }) =>
           `${isActive ? css.activeLink : ""} ${css.link}`
-        } to={"/"}>
+        }
+        to={"/"}
+      >
         <svg className={css.icon}>
-                    <use href="/icons.svg#icon-home"></use>
-                  </svg> 
+          <use href="/icons.svg#icon-home"></use>
+        </svg>
       </NavLink>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

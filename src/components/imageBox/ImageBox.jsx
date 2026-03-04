@@ -4,6 +4,7 @@ import css from "./ImageBox.module.css";
 
 const ImageBox = ({ images }) => {
   const [isGallery, setIsGallery] = useState(false);
+  
   return (
     <div className={css.imageWrapper}>
       <div className={css.viewToggle}>
@@ -11,7 +12,7 @@ const ImageBox = ({ images }) => {
           {isGallery ? "show all at once" : "show one by one"}
         </button>
       </div>
-      <div className={isGallery ? css.imageBoxGallary : css.imageBoxGrid}>
+      <div className={isGallery ? css.imageBoxGallery : css.imageBoxGrid}>
        {images.map((el) => (
         <div key={el} className={css.card}>
           <img className={css.image} src={`/task_images/${el}.png`} alt={el} />
