@@ -153,17 +153,20 @@ export const story2 = {
         { speaker: "A", line: "Who is this?" },
         { speaker: "B", line: "This is a fox." },
       ],
-      table: [{
-        column1: "This",
-        column2: "is",
-        column3: ["a", "an"],
-        column4: ["fox", "otter", "duck", "fish"],
-      }],
-      images: [{ url: "fox", label: "fox" },
+      table: [
+        {
+          column1: "This",
+          column2: "is",
+          column3: ["a", "an"],
+          column4: ["fox", "otter", "duck", "fish"],
+        },
+      ],
+      images: [
+        { url: "fox", label: "fox" },
         { url: "otter", label: "otter" },
         { url: "duck", label: "duck" },
         { url: "fish", label: "fish" },
-        ],
+      ],
     },
     {
       id: "task4",
@@ -173,25 +176,27 @@ export const story2 = {
         { speaker: "A", line: "Is he nervous?" },
         { speaker: "B", line: "No. Is he calm?" },
       ],
-      table: [{
-        column1: "Is",
-        column2: "he",
-        column3: ["calm", "nervous"],
-      }],
+      table: [
+        {
+          column1: "Is",
+          column2: "he",
+          column3: ["calm", "nervous"],
+        },
+      ],
       images: [
-        { url: "calm1"},
-        { url: "nervous1"},
-        { url: "nervous2"},
-        { url: "calm2"},
-        { url: "nervous3"},
-        { url: "nervous4"},
-        { url: "nervous5"},
-        { url: "nervous6"},
-        { url: "calm4"},
-        { url: "nervous7"},
-        { url: "calm5"},
-        { url: "nervous8"},
-        { url: "nervous9"},
+        { url: "calm1" },
+        { url: "nervous1" },
+        { url: "nervous2" },
+        { url: "calm2" },
+        { url: "nervous3" },
+        { url: "nervous4" },
+        { url: "nervous5" },
+        { url: "nervous6" },
+        { url: "calm4" },
+        { url: "nervous7" },
+        { url: "calm5" },
+        { url: "nervous8" },
+        { url: "nervous9" },
       ],
     },
     {
@@ -202,15 +207,19 @@ export const story2 = {
         { speaker: "A", line: "It has sharp teeth." },
         { speaker: "B", line: "A beaver. It has big ears." },
       ],
-      table: [{
-        column1: "It",
-        column2: "has",
-        column3: ["big", "small", "sharp", "wide", "flat", "long"],
-        column4: ["teeth", "eyes", "nose", "ears", "tail", "head"],
-      }],
-      images: [{ url: "beaver", label: "beaver" },
+      table: [
+        {
+          column1: "It",
+          column2: "has",
+          column3: ["big", "small", "sharp", "wide", "flat", "long"],
+          column4: ["teeth", "eyes", "nose", "ears", "tail", "head"],
+        },
+      ],
+      images: [
+        { url: "beaver", label: "beaver" },
         { url: "fox", label: "fox" },
-        { url: "otter", label: "otter" }],
+        { url: "otter", label: "otter" },
+      ],
     },
     {
       id: "task8",
@@ -220,17 +229,28 @@ export const story2 = {
         { speaker: "A", line: "What color is the house?" },
         { speaker: "B", line: "It is yellow and grey." },
       ],
-      table: [{
-        column1: "What color",
-        column2: "is",
-        column3: "the",
-        column4: ["house", "tree", "river", "lodge", "fox", "otter", "duck", "fush"],
-      }],
+      table: [
+        {
+          column1: "What color",
+          column2: "is",
+          column3: "the",
+          column4: [
+            "house",
+            "tree",
+            "river",
+            "lodge",
+            "fox",
+            "otter",
+            "duck",
+            "fush",
+          ],
+        },
+      ],
       images: [
         { url: "beaver", label: "beaver" },
         { url: "fox", label: "fox" },
-        { url: "otter", label: "otter" }
-    ],
+        { url: "otter", label: "otter" },
+      ],
     },
     {
       id: "task10",
@@ -240,12 +260,14 @@ export const story2 = {
         { speaker: "A", line: "Who has red tail?" },
         { speaker: "B", line: "A fox has red tail" },
       ],
-      table: [{
-        column1: ["Who", "A fox", "A beaver", "An otter", "A duck"],
-        column2: "has",
-        column3: ["red", "brown", "grey", "white", "yellow"],
-        column4: ["teeth", "eyes", "nose", "ears", "tail", "head", "beak"],
-      }],
+      table: [
+        {
+          column1: ["Who", "A fox", "A beaver", "An otter", "A duck"],
+          column2: "has",
+          column3: ["red", "brown", "grey", "white", "yellow"],
+          column4: ["teeth", "eyes", "nose", "ears", "tail", "head", "beak"],
+        },
+      ],
       images: [
         { url: "beaver-head", label: "beaver head" },
         { url: "fox-head", label: "fox head" },
@@ -258,8 +280,10 @@ export const story2 = {
       ],
     },
   ],
-  games: {
-    animals: "https://learningapps.org/display?v=p9ckdt21526",
-    actions: "https://learningapps.org/display?v=pyde5z87326",
-  },
+  games: [
+    {
+      url: "https://learningapps.org/display?v=p9ckdt21526",
+    },
+    { url: "https://learningapps.org/display?v=pyde5z87326" },
+  ],
 };

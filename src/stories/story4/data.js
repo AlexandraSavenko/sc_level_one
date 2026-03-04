@@ -235,7 +235,8 @@ export const story4 = {
             "apples",
             "bud",
             "buds",
-          ], column5: "?"
+          ],
+          column5: "?",
         },
       ],
       images: [
@@ -265,14 +266,8 @@ export const story4 = {
         {
           column1: "How",
           column2: "many",
-          column3: [
-            "trees",
-            "pumpkins",
-            "walnuts",
-            "seeds",
-            "apples",
-            "buds",
-          ], column4: "?"
+          column3: ["trees", "pumpkins", "walnuts", "seeds", "apples", "buds"],
+          column4: "?",
         },
         {
           column1: "I",
@@ -328,8 +323,9 @@ export const story4 = {
             "seeds",
             "cherries",
             "buds",
-            "acorns"
-          ], column4: "?"
+            "acorns",
+          ],
+          column4: "?",
         },
       ],
       images: [
@@ -344,8 +340,10 @@ export const story4 = {
       ],
     },
   ],
-  games: {
-    food: "https://learningapps.org/watch?v=ptry3v5rc26",
-    sentences: "https://learningapps.org/display?v=pzjnqcwpa26",
-  },
+  games: [
+    {
+      url: "https://learningapps.org/watch?v=ptry3v5rc26",
+    },
+    { url: "https://learningapps.org/display?v=pzjnqcwpa26" },
+  ],
 };

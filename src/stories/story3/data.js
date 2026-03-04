@@ -139,15 +139,19 @@ export const story3 = {
         { speaker: "A", line: "Is he young?" },
         { speaker: "B", line: "Yes. Is he strong?" },
       ],
-      table: [{
-        column1: "Is",
-        column2: ["he", "she"],
-        column3: ["old", "young"],
-      }, {column1: ["He", "She"],
-        column2: "has",
-        column3: ["one", "many"],
-        column4: ["tooth", "teeth"]
-      }],
+      table: [
+        {
+          column1: "Is",
+          column2: ["he", "she"],
+          column3: ["old", "young"],
+        },
+        {
+          column1: ["He", "She"],
+          column2: "has",
+          column3: ["one", "many"],
+          column4: ["tooth", "teeth"],
+        },
+      ],
       images: [
         { url: "old", label: "old" },
         { url: "big", label: "big" },
@@ -165,12 +169,14 @@ export const story3 = {
         { speaker: "A", line: "Who can fly?" },
         { speaker: "B", line: "A crow and a duck" },
       ],
-      table: [{
-        column1: "Who",
-        column2: "can",
-        column3: ["fly", "swim", "build", "collect", "bite"],
-        column4: "?"
-      }],
+      table: [
+        {
+          column1: "Who",
+          column2: "can",
+          column3: ["fly", "swim", "build", "collect", "bite"],
+          column4: "?",
+        },
+      ],
       images: [
         { url: "otter", label: "an otter" },
         { url: "crow", label: "a crow" },
@@ -181,7 +187,6 @@ export const story3 = {
         { url: "boy", label: "a boy" },
         { url: "cow", label: "a cow" },
       ],
-
     },
     {
       id: "task5",
@@ -191,13 +196,24 @@ export const story3 = {
         { speaker: "A", line: "Can a crow swim?" },
         { speaker: "B", line: "No. Can an otter swim?" },
       ],
-      table: [{
-        column1: "Can",
-        column2: ["a", "an"],
-        column3: ["duck", "fox", "boy", "otter", "wolf", "beaver", "cow", "puppy"],
-        column4: ["fly", "swim", "build", "collect", "bite"],
-        column5: "?"
-      }],
+      table: [
+        {
+          column1: "Can",
+          column2: ["a", "an"],
+          column3: [
+            "duck",
+            "fox",
+            "boy",
+            "otter",
+            "wolf",
+            "beaver",
+            "cow",
+            "puppy",
+          ],
+          column4: ["fly", "swim", "build", "collect", "bite"],
+          column5: "?",
+        },
+      ],
       images: [
         { url: "otter", label: "an otter" },
         { url: "crow", label: "a crow" },
@@ -217,19 +233,22 @@ export const story3 = {
       dialogue: [
         { speaker: "A", line: "Who can fly?" },
         { speaker: "B", line: "A crow. Is it black?" },
-         { speaker: "A", line: "Yes." },
+        { speaker: "A", line: "Yes." },
       ],
-      table: [{
-        column1: "Who",
-        column2: "can",
-        column3: ["fly", "swim", "build", "collect", "bite"],
-        column4: "?"
-      }, {
-        column1: "Is",
-        column2: ["it", "he"],
-        column3: ["white", "black", "green", "brown", "grey"],
-        column4: "?"
-      }],
+      table: [
+        {
+          column1: "Who",
+          column2: "can",
+          column3: ["fly", "swim", "build", "collect", "bite"],
+          column4: "?",
+        },
+        {
+          column1: "Is",
+          column2: ["it", "he"],
+          column3: ["white", "black", "green", "brown", "grey"],
+          column4: "?",
+        },
+      ],
       images: [
         { url: "crow", label: "a crow" },
         { url: "duck", label: "a duck" },
@@ -239,9 +258,12 @@ export const story3 = {
         { url: "boy", label: "a boy" },
         { url: "cow", label: "a cow" },
       ],
-    }
+    },
   ],
-  games: {
-    nouns: "https://learningapps.org/watch?v=p7qx5m5pj26", sentences: "https://learningapps.org/watch?v=pbpnhffw326"
-  }
+  games: [
+    {
+      url: "https://learningapps.org/watch?v=p7qx5m5pj26",
+    },
+    { url: "https://learningapps.org/watch?v=pbpnhffw326" },
+  ],
 };

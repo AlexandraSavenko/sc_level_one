@@ -7,9 +7,9 @@ import Activities from "./components/activities/Activities";
 import Reading from "./components/reading/Reading";
 import SpeakigLayout from "./components/speakingLayout/SpeakigLayout";
 import SpeakingTask from "./components/speakingTask/SpeakingTask";
-import Tests from "./components/tests/Tests";
 import Intro from "./components/intro/Intro";
 import Video from "./components/video/Video";
+import Games from "./components/games/Games";
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
           <Route path="speaking" element={<SpeakigLayout />}>
             <Route path=":taskId" element={<SpeakingTask />} />
           </Route>
-          <Route path="tests" element={<Tests />} />
+          <Route path="games" element={<Games />} />
         </Route>
       </Routes>
     </Layout>

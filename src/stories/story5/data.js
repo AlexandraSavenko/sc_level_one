@@ -379,8 +379,10 @@ export const story5 = {
       ],
     },
   ],
-  games: {
-    nouns: "https://learningapps.org/display?v=p0phua34n26",
-    sentences: "https://learningapps.org/display?v=pd90tgbxj26",
-  },
+  games: [
+    {
+      url: "https://learningapps.org/display?v=p0phua34n26",
+    },
+    { url: "https://learningapps.org/display?v=pd90tgbxj26" },
+  ],
 };
