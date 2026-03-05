@@ -344,6 +344,6 @@ export const story4 = {
     {
       url: "https://learningapps.org/watch?v=ptry3v5rc26",
     },
-    { url: "https://learningapps.org/display?v=pzjnqcwpa26" },
+    { url: "https://learningapps.org/watch?v=pzjnqcwpa26" },
   ],
 };

@@ -226,10 +226,10 @@ export const story1 = {
   ],
   games: [
     {
-      url: "https://learningapps.org/display?v=p88pryvs226",
+      url: "https://learningapps.org/watch?v=p88pryvs226",
     },
-    { url: "https://learningapps.org/display?v=pugqzuvjc26" },
-    { url: "https://learningapps.org/display?v=pzpe6s4wk26" },
-    { url: "https://learningapps.org/display?v=pyh438eva26" },
+    { url: "https://learningapps.org/watch?v=pugqzuvjc26" },
+    { url: "https://learningapps.org/watch?v=pzpe6s4wk26" },
+    { url: "https://learningapps.org/watch?v=pyh438eva26" },
   ],
 };

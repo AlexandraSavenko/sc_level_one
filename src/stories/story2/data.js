@@ -282,8 +282,8 @@ export const story2 = {
   ],
   games: [
     {
-      url: "https://learningapps.org/display?v=p9ckdt21526",
+      url: "https://learningapps.org/watch?v=p9ckdt21526",
     },
-    { url: "https://learningapps.org/display?v=pyde5z87326" },
+    { url: "https://learningapps.org/watch?v=pyde5z87326" },
   ],
 };
