@@ -4,6 +4,9 @@ import { NavLink } from 'react-router-dom'
 const ContentItem = ({storyNumber}) => {
   return (
     <ul className={css.itemBox}>
+      <li>
+      <NavLink className={({isActive}) => `${css.link} ${isActive && css.active}`} to={`story${storyNumber}/prelistening`}>{`Pre-Listening ${storyNumber}`}</NavLink>
+      </li>
         <li>
       <NavLink className={({isActive}) => `${css.link} ${isActive && css.active}`} to={`story${storyNumber}/story`}>{`Story ${storyNumber}`}</NavLink>
       </li>

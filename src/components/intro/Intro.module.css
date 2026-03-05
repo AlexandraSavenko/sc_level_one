@@ -3,6 +3,9 @@
   background: var(--bg-main);
 }
 
+.intro ul {
+  list-style: disc;
+}
 .title {
   font-size: 2.2rem;
   font-weight: 700;
@@ -26,7 +29,9 @@
   box-shadow: var(--shadow);
   max-width: 800px;
 }
-
+.instruction{
+  font-family: var(--second-font);
+}
 .content p {
   margin-bottom: 1.2rem;
   line-height: 1.7;
@@ -42,3 +47,34 @@
   margin-bottom: 0.5rem;
   color: var(--text-secondary);
 }
+
+.downloadLink {
+  width: 300px;
+    background: var(--bg-surface);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.downloadLink:hover {
+      background: var(--accent);
+  color: var(--text-on-dark);
+  border-color: var(--accent);
+}
+
+.icon{  width: 20px;
+  height: 20px;
+  fill: var(--text-primary);
+transition: all 0.2s ease;}
+
+  .downloadLink:hover .icon{
+    fill: var(--text-on-dark)
+  }

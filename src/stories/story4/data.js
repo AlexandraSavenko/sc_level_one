@@ -3,6 +3,17 @@ export const story4 = {
   title: "The Squirrel and the Four Seasons",
   video: "-5kzhzzY4wg",
   file: "https://drive.google.com/file/d/1vP2j1c2ZLTN-GvMST4tFlI6Nz2DYok4y/view?usp=sharing",
+  preListening: [
+    { url: "grass", label: "grass" },
+    { url: "buds", label: "buds" },
+    { url: "mushroom", label: "a mushroom" },
+    { url: "apple", label: "a apple" },
+    { url: "seeds", label: "seeds" },
+    { url: "acorn", label: "an acorn" },
+    { url: "hazelnut", label: "a hazelnut" },
+    { url: "walnut", label: "a walnut" },
+    { url: "pumpkin", label: "a pumpkin" },
+  ],
   pages: [
     {
       id: 1,

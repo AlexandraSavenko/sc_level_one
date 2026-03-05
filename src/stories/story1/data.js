@@ -3,6 +3,15 @@ export const story1 = {
   title: "The Little Beaver and his Family",
   video: "_fg31nQi3wk",
   file: "https://drive.google.com/file/d/1CxLEtcGe_MSkLxRsEwnKfICqi-EYPPpd/view?usp=sharing",
+  preListening: [
+    { url: "beaver", label: "a beaver" },
+    { url: "river", label: "a river" },
+    { url: "house", label: "a house" },
+    { url: "family", label: "a family" },
+    { url: "lodge", label: "a lodge" },
+    { url: "branch", label: "a branch" },
+    { url: "mud", label: "mud" },
+  ],
   pages: [
     {
       id: 1,

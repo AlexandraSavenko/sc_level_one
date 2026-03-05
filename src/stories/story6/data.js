@@ -3,6 +3,16 @@ export const story6 = {
   title: "The Easter Bunny in the English Garden",
   video: "HsS9VROAb4E",
   file: "https://drive.google.com/file/d/1U8t-c2v99bOsRCItMOhSzHsAszBKPmtg/view?usp=sharing",
+  preListening: [
+    { url: "carrot", label: "a carrot" },
+    { url: "strawberry", label: "a strawberry" },
+    { url: "cabbage", label: "a cabbage" },
+    { url: "bush", label: "a bush" },
+    { url: "apricots", label: "apricots" },
+    { url: "garden", label: "a garden" },
+    { url: "basket", label: "a basket" },
+    { url: "strawberryBedC", label: "a strawberry bed" },
+  ],
   pages: [
     {
       id: 1,

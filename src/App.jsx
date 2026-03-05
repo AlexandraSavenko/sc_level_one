@@ -10,6 +10,7 @@ import SpeakingTask from "./components/speakingTask/SpeakingTask";
 import Intro from "./components/intro/Intro";
 import Video from "./components/video/Video";
 import Games from "./components/games/Games";
+import PreListening from "./components/preListening/PreListening";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Intro />} />
         <Route path=":storyId" element={<StoryLayout />}>
+        <Route path="prelistening" element={<PreListening/>}/>
           <Route path="story" element={<Reading />} />
           <Route path="video" element={<Video />} />
           <Route path="vocabulary" element={<Vocabulary />} />

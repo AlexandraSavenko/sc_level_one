@@ -1,13 +1,48 @@
-.vocabularyBox{
-    padding: 0.5rem;
+.vocabularyBox {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
+
+/* category title */
+.vocabularyBox h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--accent);
+}
+
+/* list container */
 .wordList {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 0;
 }
-.wordLine{
+
+/* one word row */
+.wordLine {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+
+  padding: 0.5rem 0.6rem;
+  border-radius: 10px;
+
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+}
+
+.wordBox{
     display: flex;
-    gap: 0.5rem;
-    align-items: center;
+    gap: 1rem;
+}
+/* word styling */
+.word {
+  font-weight: 400;
+}
+
+/* meaning styling */
+.meaning {
+  opacity: 0.8;
 }

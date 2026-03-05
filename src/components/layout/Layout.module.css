@@ -12,6 +12,7 @@
 }
 .layout {
   background-color: var(--bg-surface);
+  height: calc(100vh - 70px); 
   display: grid;
   grid-template-columns: 260px 1fr;
   gap: 2rem;
@@ -25,6 +26,6 @@
 }
 
 .content {
-  min-height: 70vh;
-  margin-top: 2rem;
+  height: 100%;          
+  overflow-y: auto;
 }

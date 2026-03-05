@@ -1,6 +1,7 @@
 .sideBar {
     width: 260px;
-  min-height: 100vh;
+  height: calc(100vh - 70px);          
+  overflow-y: auto;
   background: var(--bg-sidebar);
   padding: 1.5rem 1rem;
   display: flex;

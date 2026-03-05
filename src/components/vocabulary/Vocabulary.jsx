@@ -15,10 +15,11 @@ const Vocabulary = () => {
           <h2>{category}</h2>
           <ul className={css.wordList}>
             {words.map((item, i) => (
-              <li className={css.wordLine}>
+              <li key={i} className={css.wordLine}>
                 <SpeakButton text={item.word} />
-                <p key={i}>
-                  {item.word} — {item.meaning}
+                <p className={css.wordBox}>
+                  <span className={css.word}>{item.word}</span>
+                   <span className={css.meaning}>{item.meaning}</span> 
                 </p>
               </li>
             ))}

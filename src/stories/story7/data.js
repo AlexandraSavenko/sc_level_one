@@ -3,6 +3,16 @@ export const story7 = {
   title: "Peter the Pencil school week",
   video: "imCb4VFdPGY",
   file: "https://drive.google.com/file/d/1FDWJdlySFSF1ibJWmmJamaX4hlr5Ak-p/view?usp=sharing",
+  preListening: [
+    { url: "paper", label: "a paper" },
+    { url: "pencil", label: "a pencil" },
+    { url: "pencilBox", label: "a pencil box" },
+    { url: "noteBook", label: "a notebook" },
+    { url: "desk", label: "a desk" },
+    { url: "sharpener", label: "a sharpener" },
+    { url: "pen", label: "a pen" },
+    { url: "ruler", label: "a ruler" },
+  ],
   pages: [
     {
       id: 1,

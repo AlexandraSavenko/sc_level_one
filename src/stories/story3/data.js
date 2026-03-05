@@ -3,6 +3,17 @@ export const story3 = {
   title: "Bite and His Teeth",
   video: "N1QUq2HjWoo",
   file: "https://drive.google.com/file/d/1YRrPMLt3_Soq0TJ58Sm_dWE3KJowNIA9/view?usp=sharing",
+  preListening: [
+    { url: "cow", label: "a cow" },
+    { url: "pig", label: "a pig" },
+    { url: "boy", label: "a boy" },
+    { url: "wolf", label: "a wolf" },
+    { url: "crow", label: "a crow" },
+    { url: "puppy", label: "a puppy" },
+    { url: "puddle", label: "a puddle" },
+    { url: "tooth", label: "a tooth" },
+    { url: "teeth", label: "teeth" },
+  ],
   pages: [
     {
       id: 1,
