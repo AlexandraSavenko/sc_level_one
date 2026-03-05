@@ -1,20 +1,23 @@
-import { Link, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Layout from "./components/layout/Layout";
-import StoryLayout from "./components/storyLayout/StoryLayout";
-import Vocabulary from "./components/vocabulary/Vocabulary";
-import Activities from "./components/activities/Activities";
-import Reading from "./components/reading/Reading";
-import SpeakigLayout from "./components/speakingLayout/SpeakigLayout";
-import SpeakingTask from "./components/speakingTask/SpeakingTask";
-import Intro from "./components/intro/Intro";
-import Video from "./components/video/Video";
-import Games from "./components/games/Games";
-import PreListening from "./components/preListening/PreListening";
+import { lazy, Suspense } from "react";
+
+const Layout = lazy(() => import("./components/layout/Layout"))
+const Intro = lazy(() => import("./components/intro/Intro"))
+const StoryLayout = lazy(() => import("./components/storyLayout/StoryLayout"))
+const PreListening = lazy(() => import("./components/preListening/PreListening"))
+const Reading = lazy(() => import("./components/reading/Reading"))
+const Video = lazy(() => import("./components/video/Video"))
+const Vocabulary = lazy(() => import("./components/vocabulary/Vocabulary"))
+const Activities = lazy(() => import("./components/activities/Activities"))
+const SpeakigLayout = lazy(() => import("./components/speakingLayout/SpeakigLayout"))
+const SpeakingTask = lazy(() => import("./components/speakingTask/SpeakingTask"))
+const Games = lazy(() => import("./components/games/Games"))
 
 function App() {
   return (
     <Layout>
+      <Suspense fallback={ <p>Loading...</p>}>
       <Routes>
         <Route path="/" element={<Intro />} />
         <Route path=":storyId" element={<StoryLayout />}>
@@ -29,6 +32,7 @@ function App() {
           <Route path="games" element={<Games />} />
         </Route>
       </Routes>
+      </Suspense>
     </Layout>
   );
 }
