@@ -1,7 +1,7 @@
 export const story5 = {
   id: "story5",
   title: "Maggie the magpie builds a nest",
-  video: "https://youtu.be/A8qaYDsyPkU",
+  video: "A8qaYDsyPkU",
   file: "https://drive.google.com/file/d/10LEoI2qPxTf9CHtFsd9n-s1gtdZo2fNg/view?usp=sharing",
   pages: [
     {

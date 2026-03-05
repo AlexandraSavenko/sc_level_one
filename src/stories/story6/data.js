@@ -1,7 +1,7 @@
 export const story6 = {
   id: "story6",
   title: "The Easter Bunny in the English Garden",
-  video: "https://youtu.be/HsS9VROAb4E",
+  video: "HsS9VROAb4E",
   file: "https://drive.google.com/file/d/1U8t-c2v99bOsRCItMOhSzHsAszBKPmtg/view?usp=sharing",
   pages: [
     {

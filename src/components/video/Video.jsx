@@ -12,7 +12,7 @@ const Video = () => {
         id="video"
         width="800"
         height="600"
-        src={`${story.video}`}
+        src={`https://www.youtube.com/embed/${story.video}`}
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboardWrite; encryptedMedia; gyroscope; pictureInPicture; webShare"

@@ -1,0 +1,44 @@
+.intro {
+  padding: 4rem 1rem;
+  background: var(--bg-main);
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+  max-width: 800px;
+}
+
+.lead {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+  max-width: 700px;
+}
+
+.content {
+  background: var(--bg-surface);
+  padding: 2rem;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  max-width: 800px;
+}
+
+.content p {
+  margin-bottom: 1.2rem;
+  line-height: 1.7;
+  color: var(--text-primary);
+}
+
+.content ul {
+  margin: 1.5rem 0;
+  padding-left: 1.2rem;
+}
+
+.content li {
+  margin-bottom: 0.5rem;
+  color: var(--text-secondary);
+}

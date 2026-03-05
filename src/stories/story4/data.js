@@ -1,7 +1,7 @@
 export const story4 = {
   id: "story4",
   title: "The Squirrel and the Four Seasons",
-  video: "https://youtu.be/-5kzhzzY4wg",
+  video: "-5kzhzzY4wg",
   file: "https://drive.google.com/file/d/1vP2j1c2ZLTN-GvMST4tFlI6Nz2DYok4y/view?usp=sharing",
   pages: [
     {

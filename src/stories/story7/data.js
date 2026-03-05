@@ -1,7 +1,7 @@
 export const story7 = {
   id: "story7",
   title: "Peter the Pencil school week",
-  video: "https://youtu.be/imCb4VFdPGY",
+  video: "imCb4VFdPGY",
   file: "https://drive.google.com/file/d/1FDWJdlySFSF1ibJWmmJamaX4hlr5Ak-p/view?usp=sharing",
   pages: [
     {
@@ -201,5 +201,6 @@ export const story7 = {
         { url: "legRiver", label: "a leg and a river" },
         { url: "branchCarrot", label: "a branch and a carrot" },
         ],
-    },]
+    },],
+    games: [{url: "https://learningapps.org/display?v=poeefhv5326"}, {url: "https://learningapps.org/display?v=pk6vtcr5c26"}, {url: "https://learningapps.org/watch?v=p690td1hn26"}]
 };
