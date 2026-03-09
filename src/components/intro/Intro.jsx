@@ -3,36 +3,15 @@ import css from "./Intro.module.css";
 const Intro = () => {
   return (
     <div>
+      <div className={css.hero}>
+          <h1 className={css.title}>Welcome to Beginner ESL Story Course</h1>
+        </div>
       <section className={css.intro}>
         <div className="container">
-          <h1 className={css.title}>Welcome to Beginner ESL Story Course</h1>
-
           <p className={css.lead}>
             This course is a carefully structured English program for young
             learners, built around engaging story-based lessons.
           </p>
-          <div className={`${css.content} ${css.instruction}`}>
-            <h2>Мета та ідея практики:</h2>
-            <p>
-              Формування іншомовної комунікативної компетентності учнів 1 класу
-              через системну організацію навчання на основі авторських історій
-              та повторюваних мовних моделей.
-            </p>
-
-            <h2>Сутність авторської системи:</h2>
-            <p>
-              Курс структурований у вигляді тематичних сюжетних модулів (родина,
-              природа, їжа, школа, свята, тварини тощо). Кожен модуль включає:
-            </p>
-            <ul>
-              <li>авторську історію з повторюваними синтаксичними моделями</li>
-              <li>поетапне введення лексики</li>
-              <li>дотекстову активацію лексики</li>
-              <li>систему післяслухових завдань</li>
-              <li>візуальну підтримку</li>
-              <li>комунікативні мікроситуації</li>
-            </ul>
-
             <a className={css.downloadLink}
               href="https://drive.google.com/file/d/1N31gXHd5gNKszfoOhUn54Twdt4t6iGTU/view?usp=sharing"
               target="_blanc"
@@ -42,8 +21,6 @@ const Intro = () => {
               </svg>
               <span>Завантажити опис курсу</span>
             </a>
-          </div>
-
           <div className={css.content}>
             <p>
               Each story focuses on specific grammar patterns and vocabulary

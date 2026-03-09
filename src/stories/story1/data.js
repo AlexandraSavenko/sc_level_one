@@ -135,13 +135,12 @@ export const story1 = {
       title: "It is heavy.",
       type: "Look and say",
       dialogue: [
-        { speaker: "A", line: "Is he strong?" },
-        { speaker: "B", line: "Yes. Is it heavy?" },
+        { speaker: "A", line: "He is heavy." },
       ],
       table: [
         {
-          column1: "Is",
-          column2: ["he", "she", "it"],
+          column1: ["He", "She", "It"],
+          column2: "is",
           column3: ["old", "big", "small", "strong", "careful", "fast"],
         },
       ],
@@ -164,7 +163,7 @@ export const story1 = {
       ],
       table: [
         {
-          column1: "can",
+          column1: "Can",
           column2: "a beaver",
           column3: ["repair", "swim", "collect", "carry", "build"],
         },

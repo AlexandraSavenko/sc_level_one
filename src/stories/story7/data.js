@@ -2,7 +2,7 @@ export const story7 = {
   id: "story7",
   title: "Peter the Pencil school week",
   video: "imCb4VFdPGY",
-  file: "https://drive.google.com/file/d/1FDWJdlySFSF1ibJWmmJamaX4hlr5Ak-p/view?usp=sharing",
+  file: "https://drive.google.com/file/d/1MTFS88SPLyEo5QiKCc7KLaEt1PVnCszn/view?usp=sharing",
   preListening: [
     { url: "paper", label: "a paper" },
     { url: "pencil", label: "a pencil" },
