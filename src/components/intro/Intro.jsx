@@ -14,7 +14,7 @@ const Intro = () => {
           </p>
           <div className={css.linkBox}>
             <a className={css.downloadLink}
-              href="https://drive.google.com/file/d/158DmH9JSU1IdqyFL1t2dWkpSddb66lZo/view?usp=sharing"
+              href="https://drive.google.com/file/d/1jooK1NUVGeDTSRV84ngPic-jIj-95CUy/view?usp=sharing"
               target="_blanc"
             >
               <svg className={css.icon}>
