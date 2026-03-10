@@ -12,8 +12,9 @@ const Intro = () => {
             This course is a carefully structured English program for young
             learners, built around engaging story-based lessons.
           </p>
+          <div className={css.linkBox}>
             <a className={css.downloadLink}
-              href="https://drive.google.com/file/d/1N31gXHd5gNKszfoOhUn54Twdt4t6iGTU/view?usp=sharing"
+              href="https://drive.google.com/file/d/158DmH9JSU1IdqyFL1t2dWkpSddb66lZo/view?usp=sharing"
               target="_blanc"
             >
               <svg className={css.icon}>
@@ -21,6 +22,8 @@ const Intro = () => {
               </svg>
               <span>Завантажити опис курсу</span>
             </a>
+            <a target="_blanc" className={css.downloadLink} href="https://youtu.be/BHkjtXyM3VU">Відео огляд курсу</a>
+            </div>
           <div className={css.content}>
             <p>
               Each story focuses on specific grammar patterns and vocabulary

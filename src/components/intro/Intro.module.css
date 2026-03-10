@@ -25,6 +25,11 @@
   text-align: center;
 }
 
+.linkBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 .lead {
   font-size: 1.2rem;
   color: var(--text-secondary);
