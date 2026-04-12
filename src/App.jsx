@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import { lazy, Suspense } from "react";
+import NotFound from "./components/notFound/NotFound";
 
 const Layout = lazy(() => import("./components/layout/Layout"));
 const Intro = lazy(() => import("./components/intro/Intro"));
@@ -37,6 +38,7 @@ function App() {
             </Route>
             <Route path="games" element={<Games />} />
           </Route>
+          <Route path="*" element={<NotFound/>} />
         </Routes>
       </Suspense>
     </Layout>
