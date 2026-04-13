@@ -3,14 +3,64 @@ export const story1 = {
   title: "The Little Beaver and his Family",
   video: "_fg31nQi3wk",
   file: "https://drive.google.com/file/d/1CxLEtcGe_MSkLxRsEwnKfICqi-EYPPpd/view?usp=sharing",
-  preListening: [
-    { url: "beaver", label: "a beaver" },
-    { url: "river", label: "a river" },
-    { url: "house", label: "a house" },
-    { url: "family", label: "a family" },
-    { url: "lodge", label: "a lodge" },
-    { url: "branch", label: "a branch" },
-    { url: "mud", label: "mud" },
+  prelistening: [
+    {
+      id: "task1",
+      title: "Nouns",
+      type: "Look and say",
+      dialogue: "I see a ...",
+      images: [
+        { url: "beaver", label: "a beaver" },
+        { url: "river", label: "a river" },
+        { url: "house", label: "a house" },
+        { url: "family", label: "a family" },
+        { url: "lodge", label: "a lodge" },
+        { url: "branch", label: "a branch" },
+        { url: "mud", label: "mud" },
+        {url: "dam", label: "a dam"}
+      ],
+    },
+    {
+      id: "task2",
+      title: "Actions",
+      type: "Look and say",
+      dialogue: "can ...",
+      images: [
+        { url: "canSwim", label: "swim" },
+        { url: "canCarry", label: "carry" },
+        { url: "canCollect", label: "collect" },
+        { url: "canBuild", label: "build" },
+        { url: "canRepair", label: "repair" },
+      ],
+    },
+    {
+      id: "task3",
+      title: "Family",
+      type: "Look and say",
+      dialogue: "my ...",
+      images: [
+        { url: "motherBeaver", label: "mother" },
+        { url: "fatherBeaver", label: "father" },
+        { url: "sisterBeaver", label: "sister" },
+        { url: "brotherBeaver", label: "brother" },
+        { url: "grannyBeaver", label: "granny" },
+        { url: "grandpaBeaver", label: "grandpa" },
+      ],
+    },
+    {
+      id: "task4",
+      title: "What like?",
+      type: "Look and say",
+      dialogue: "It is ...",
+      images: [
+        { url: "strongAnt", label: "strong" },
+        { url: "thinBranch", label: "thin" },
+        { url: "bigTree", label: "big" },
+        { url: "smallTree", label: "small" },
+        { url: "heavyBranch", label: "heavy" },
+        { url: "fastBunny", label: "fast" },
+      ],
+    },
   ],
   pages: [
     {
@@ -39,20 +89,21 @@ export const story1 = {
       text: "I have a sister, and you? do you have a sister? My sister is fast. She can swim in the river and bring thin sticks for the dam.",
     },
     {
+      id: 7,
+      altText: "beaver and baby beaver",
+      text: "I have a brother, and you? Do you have a brother? My brother is small. He can swim near the shore.",
+    },
+    {
       id: 6,
       altText: "beaver swimming",
       text: "This is my granny. She is old. She can help my brother, my sister and me. She can teach my sister to find good sticks. She can teach my brother to swim.",
     },
     {
-      id: 7,
+      id: 8,
       altText: "baby beaver on the shore",
       text: "I am small but fast. I can’t carry heavy branches. But I can collect small sticks for the lodge. Our home is strong because we work together.",
     },
-    {
-      id: 8,
-      altText: "beaver abd baby beaver",
-      text: "I have a brother, and you? Do you have a brother? My brother is small. He can swim near the shore.",
-    },
+    
   ],
   vocabulary: {
     nouns: [
@@ -134,9 +185,7 @@ export const story1 = {
       id: "task2",
       title: "It is heavy.",
       type: "Look and say",
-      dialogue: [
-        { speaker: "A", line: "He is heavy." },
-      ],
+      dialogue: [{ speaker: "A", line: "He is heavy." }],
       table: [
         {
           column1: ["He", "She", "It"],
@@ -158,13 +207,12 @@ export const story1 = {
       title: "A beaver can swim.",
       type: "Look and say",
       dialogue: [
-        { speaker: "A", line: "Can a beaver swim?" },
-        { speaker: "B", line: "Yes. Can a beaver carry?" },
+        { speaker: "A", line: "A beaver can swim" },
       ],
       table: [
         {
-          column1: "Can",
-          column2: "a beaver",
+          column1: "A beaver",
+          column2: "can",
           column3: ["repair", "swim", "collect", "carry", "build"],
         },
       ],
@@ -177,24 +225,38 @@ export const story1 = {
       ],
     },
     {
+      id: "task5",
+      title: "I have a mother.",
+      type: "Look and say",
+      dialogue: [
+        { speaker: "A", line: "I have a mother" },
+      ],
+      table: [
+        {
+          column1: "I",
+          column2: "have",
+          column3: ["a mother", "a father", "a sister", "a brother", "a granny", "a grandpa"],
+        },
+      ],
+      images: [
+        { url: "family", label: "a family" },
+      ],
+    },
+    {
       id: "task6",
       title: "Who is she?",
       type: "Look and say",
       dialogue: [
         { speaker: "A", line: "Who is she?" },
-        { speaker: "B", line: "A mother. She is a mother" },
+        { speaker: "B", line: "A mother" },
       ],
       table: [
         {
-          column1: ["He", "she"],
+          column1: "Who",
           column2: "is",
           verbs: [
-            "a mother",
-            "a father",
-            "a sister",
-            "a brother",
-            "a granny",
-            "a grandpa",
+            "he",
+            "she",
           ],
         },
       ],
@@ -205,6 +267,25 @@ export const story1 = {
         { url: "brother", label: "brother" },
         { url: "granny", label: "granny" },
         { url: "grandpa", label: "grandpa" },
+      ],
+    },
+    {
+      id: "task8",
+      title: "Is it fast?",
+      type: "Look and say",
+      dialogue: [
+        { speaker: "A", line: "Is he fast?" },
+      ],
+      table: [
+        {
+          column1: "Is",
+          column2: "it",
+          column3: ["old", "big", "small", "strong", "careful", "fast", "thin"],
+          column4: "?"
+        },
+      ],
+      images: [
+        { url: "viking", label: "he" },
       ],
     },
     {
@@ -219,7 +300,7 @@ export const story1 = {
         {
           column1: "Is",
           column2: ["he", "she"],
-          column3: ["old", "big", "small", "strong", "careful", "fast"],
+          column3: ["old", "big", "small", "strong", "careful", "fast", "thin"],
         },
       ],
       images: [
@@ -229,6 +310,7 @@ export const story1 = {
         { url: "strong", label: "strong" },
         { url: "careful", label: "careful" },
         { url: "fast", label: "fast" },
+        { url: "thin", label: "thin" },
       ],
     },
   ],

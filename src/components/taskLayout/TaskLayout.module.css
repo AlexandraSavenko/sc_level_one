@@ -1,0 +1,55 @@
+.speakingWrapper {
+  padding: 2rem 0;
+}
+
+/* Heading */
+.heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
+  letter-spacing: -0.5px;
+}
+
+/* Nav container */
+.nav {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  background: var(--color-bg-secondary);
+  border-radius: 16px;
+  margin-bottom: 2rem;
+}
+
+/* Links */
+.link {
+  padding: 0.6rem 1.2rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: all 0.25s ease;
+}
+
+/* Hover */
+.link:hover {
+  background: var(--text-secondary);
+  color: var(--text-on-dark);
+}
+
+/* Active */
+.active {
+  background: var(--accent);
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Content area */
+.content {
+  background: var(--color-bg-primary);
+  padding: 2rem;
+  border-radius: 18px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
+}

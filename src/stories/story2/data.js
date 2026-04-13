@@ -3,13 +3,19 @@ export const story2 = {
   title: "Ben the Beaver and the River Friends",
   video: "JcvnXa2Gtzw",
   file: "https://drive.google.com/file/d/1qBOnENlQPyphkgj3p9LxcZfMDGNg--lh/view?usp=sharing",
-  preListening: [
+  prelistening: [{
+      id: "task1",
+      title: "Nouns",
+      type: "Look and say",
+      dialogue: "I see a ...",
+      images: [
     { url: "fox", label: "a fox" },
     { url: "otter", label: "an otter" },
     { url: "duck", label: "a duck" },
     { url: "fish", label: "a fish" },
     { url: "dam", label: "a dam" },
-  ],
+  ]
+    },] ,
   pages: [
     {
       id: 1,

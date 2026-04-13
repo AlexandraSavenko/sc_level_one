@@ -3,12 +3,20 @@ export const story5 = {
   title: "Maggie the magpie builds a nest",
   video: "A8qaYDsyPkU",
   file: "https://drive.google.com/file/d/10LEoI2qPxTf9CHtFsd9n-s1gtdZo2fNg/view?usp=sharing",
-  preListening: [
+  prelistening: [
+    {
+      id: "task1",
+      title: "Nouns",
+      type: "Look and say",
+      dialogue: "I see a ...",
+      images: [
     { url: "feather", label: "a feather" },
     { url: "rain", label: "rain" },
     { url: "legs", label: "legs" },
     { url: "porridge", label: "porridge" },
     { url: "egg", label: "an egg" },
+  ],
+    },
   ],
   pages: [
     {

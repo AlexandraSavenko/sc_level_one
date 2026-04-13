@@ -3,7 +3,13 @@ export const story6 = {
   title: "The Easter Bunny in the English Garden",
   video: "HsS9VROAb4E",
   file: "https://drive.google.com/file/d/1U8t-c2v99bOsRCItMOhSzHsAszBKPmtg/view?usp=sharing",
-  preListening: [
+  prelistening: [
+    {
+      id: "task1",
+      title: "Nouns",
+      type: "Look and say",
+      dialogue: "I see a ...",
+      images: [
     { url: "carrot", label: "a carrot" },
     { url: "strawberry", label: "a strawberry" },
     { url: "cabbage", label: "a cabbage" },
@@ -12,6 +18,8 @@ export const story6 = {
     { url: "garden", label: "a garden" },
     { url: "basket", label: "a basket" },
     { url: "strawberryBedC", label: "a strawberry bed" },
+  ],
+    },
   ],
   pages: [
     {

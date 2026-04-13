@@ -3,15 +3,23 @@ export const story7 = {
   title: "Peter the Pencil school week",
   video: "imCb4VFdPGY",
   file: "https://drive.google.com/file/d/1MTFS88SPLyEo5QiKCc7KLaEt1PVnCszn/view?usp=sharing",
-  preListening: [
-    { url: "paper", label: "a paper" },
-    { url: "pencil", label: "a pencil" },
-    { url: "pencilBox", label: "a pencil box" },
-    { url: "noteBook", label: "a notebook" },
-    { url: "desk", label: "a desk" },
-    { url: "sharpener", label: "a sharpener" },
-    { url: "pen", label: "a pen" },
-    { url: "ruler", label: "a ruler" },
+  prelistening: [
+    {
+      id: "task1",
+      title: "Nouns",
+      type: "Look and say",
+      dialogue: "I see a ...",
+      images: [
+        { url: "paper", label: "a paper" },
+        { url: "pencil", label: "a pencil" },
+        { url: "pencilBox", label: "a pencil box" },
+        { url: "noteBook", label: "a notebook" },
+        { url: "desk", label: "a desk" },
+        { url: "sharpener", label: "a sharpener" },
+        { url: "pen", label: "a pen" },
+        { url: "ruler", label: "a ruler" },
+      ],
+    },
   ],
   pages: [
     {
